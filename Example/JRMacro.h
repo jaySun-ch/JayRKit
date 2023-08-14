@@ -121,6 +121,17 @@ __VA_ARGS__\
 #endif
 
 
+#ifndef JRCreateLazyLoad
+#define JRCreateLazyLoad(_type_,_name_,_block_) \
+- (_type_)_name_{ \
+    if(!_##_name_){ \
+        _block_();\
+    }\
+    return _##_name_;\
+}
+#endif
+
+
 static inline dispatch_time_t dispatch_time_delay(NSTimeInterval second){
     return dispatch_time(DISPATCH_WALLTIME_NOW,(int64_t)(second * NSEC_PER_SEC));
 }

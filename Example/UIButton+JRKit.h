@@ -12,8 +12,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIButton (JRKit)
+
 - (instancetype)initWithAction:(void (^)(JRTarget * sender))action
                      event:(UIControlEvents)event;
+
+
 
 @end
 

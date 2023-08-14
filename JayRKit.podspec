@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jaySun-ch' => 'szhixiong2022@163.com' }
-  s.source           = { :git => 'https://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@github.com/jaySun-ch/JayRKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jaySun-ch/BRKit/blob/main/BRKit/Source/BRExtension/UIView%2BBRExtension.m', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
@@ -45,5 +45,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'Masonry', '~> 1.1.0'
 end

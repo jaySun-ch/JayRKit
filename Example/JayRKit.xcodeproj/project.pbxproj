@@ -33,6 +33,9 @@
 		7A76F7422A73FD0600C23891 /* UIButton+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76F7412A73FD0600C23891 /* UIButton+JRKit.m */; };
 		7A76F7452A73FD7B00C23891 /* JRTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76F7442A73FD7B00C23891 /* JRTarget.m */; };
 		7A7A6F682A8A173100657C29 /* JayRKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A7A6F672A8A173100657C29 /* JayRKit-Info.plist */; };
+		7A7A6F6B2A8A2E7F00657C29 /* JRFillVerifyCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A6F6A2A8A2E7F00657C29 /* JRFillVerifyCodeView.m */; };
+		7A7A6F6E2A8A2F4700657C29 /* JRVerifyCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A6F6D2A8A2F4700657C29 /* JRVerifyCodeInputView.m */; };
+		7A7A6F732A8A4D7100657C29 /* JRPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A6F722A8A4D7100657C29 /* JRPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,12 @@
 		7A76F7432A73FD7B00C23891 /* JRTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRTarget.h; sourceTree = "<group>"; };
 		7A76F7442A73FD7B00C23891 /* JRTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTarget.m; sourceTree = "<group>"; };
 		7A7A6F672A8A173100657C29 /* JayRKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JayRKit-Info.plist"; path = "../../JayRKit-Info.plist"; sourceTree = "<group>"; };
+		7A7A6F6A2A8A2E7F00657C29 /* JRFillVerifyCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRFillVerifyCodeView.m; sourceTree = "<group>"; };
+		7A7A6F6C2A8A2E8700657C29 /* JRFillVerifyCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRFillVerifyCodeView.h; sourceTree = "<group>"; };
+		7A7A6F6D2A8A2F4700657C29 /* JRVerifyCodeInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRVerifyCodeInputView.m; sourceTree = "<group>"; };
+		7A7A6F6F2A8A2F5000657C29 /* JRVerifyCodeInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRVerifyCodeInputView.h; sourceTree = "<group>"; };
+		7A7A6F722A8A4D7100657C29 /* JRPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRPath.m; sourceTree = "<group>"; };
+		7A7A6F742A8A4D7800657C29 /* JRPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRPath.h; sourceTree = "<group>"; };
 		7AE157442A80CBE2006435E8 /* JRMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRMacro.h; sourceTree = "<group>"; };
 		DA2F9E815A13421E8D2208BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -221,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				7A76F72E2A726C9F00C23891 /* JayRKit.h */,
+				7A7A6F692A8A2E4A00657C29 /* JRView */,
 				7A2C9F292A85E20F00D44F5D /* JRObject */,
 				7AE157432A80CBCF006435E8 /* JRMacro */,
 				7A76F7382A72B73E00C23891 /* JRDebug */,
@@ -297,6 +307,35 @@
 			children = (
 			);
 			name = JRDebugButton;
+			sourceTree = "<group>";
+		};
+		7A7A6F692A8A2E4A00657C29 /* JRView */ = {
+			isa = PBXGroup;
+			children = (
+				7A7A6F712A8A4D6100657C29 /* JRPath */,
+				7A7A6F702A8A2F5800657C29 /* JRFillVerifyCodeView */,
+			);
+			name = JRView;
+			sourceTree = "<group>";
+		};
+		7A7A6F702A8A2F5800657C29 /* JRFillVerifyCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				7A7A6F6C2A8A2E8700657C29 /* JRFillVerifyCodeView.h */,
+				7A7A6F6A2A8A2E7F00657C29 /* JRFillVerifyCodeView.m */,
+				7A7A6F6F2A8A2F5000657C29 /* JRVerifyCodeInputView.h */,
+				7A7A6F6D2A8A2F4700657C29 /* JRVerifyCodeInputView.m */,
+			);
+			name = JRFillVerifyCodeView;
+			sourceTree = "<group>";
+		};
+		7A7A6F712A8A4D6100657C29 /* JRPath */ = {
+			isa = PBXGroup;
+			children = (
+				7A7A6F742A8A4D7800657C29 /* JRPath.h */,
+				7A7A6F722A8A4D7100657C29 /* JRPath.m */,
+			);
+			name = JRPath;
 			sourceTree = "<group>";
 		};
 		7AE157432A80CBCF006435E8 /* JRMacro */ = {
@@ -417,9 +456,12 @@
 				7A2C9F252A85DCB600D44F5D /* UIControl+JRKit.m in Sources */,
 				6003F5A7195388D20070C39A /* JRViewController.m in Sources */,
 				7A76F7452A73FD7B00C23891 /* JRTarget.m in Sources */,
+				7A7A6F6B2A8A2E7F00657C29 /* JRFillVerifyCodeView.m in Sources */,
 				7A76F7372A7273D900C23891 /* NSObject+JRKit.m in Sources */,
 				7A76F7322A726CCF00C23891 /* UITapGestureRecognizer+JRKit.m in Sources */,
+				7A7A6F732A8A4D7100657C29 /* JRPath.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7A7A6F6E2A8A2F4700657C29 /* JRVerifyCodeInputView.m in Sources */,
 				7A2C9F312A86251500D44F5D /* JRModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
