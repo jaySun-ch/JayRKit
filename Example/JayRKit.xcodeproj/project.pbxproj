@@ -32,6 +32,7 @@
 		7A76F73F2A72B7D600C23891 /* JRDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76F73E2A72B7D600C23891 /* JRDebugManager.m */; };
 		7A76F7422A73FD0600C23891 /* UIButton+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76F7412A73FD0600C23891 /* UIButton+JRKit.m */; };
 		7A76F7452A73FD7B00C23891 /* JRTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A76F7442A73FD7B00C23891 /* JRTarget.m */; };
+		7A7A6F682A8A173100657C29 /* JayRKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A7A6F672A8A173100657C29 /* JayRKit-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,6 @@
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* JayRKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JayRKit-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* JayRKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JayRKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -89,6 +89,7 @@
 		7A76F7412A73FD0600C23891 /* UIButton+JRKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JRKit.m"; sourceTree = "<group>"; };
 		7A76F7432A73FD7B00C23891 /* JRTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRTarget.h; sourceTree = "<group>"; };
 		7A76F7442A73FD7B00C23891 /* JRTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTarget.m; sourceTree = "<group>"; };
+		7A7A6F672A8A173100657C29 /* JayRKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JayRKit-Info.plist"; path = "../../JayRKit-Info.plist"; sourceTree = "<group>"; };
 		7AE157442A80CBE2006435E8 /* JRMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRMacro.h; sourceTree = "<group>"; };
 		DA2F9E815A13421E8D2208BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,7 +169,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* JayRKit-Info.plist */,
+				7A7A6F672A8A173100657C29 /* JayRKit-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* JayRKit-Prefix.pch */,
@@ -387,6 +388,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				7A2C9F342A862AFF00D44F5D /* test.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				7A7A6F682A8A173100657C29 /* JayRKit-Info.plist in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,13 +549,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JayRKit/JayRKit-Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "JayRKit/JayRKit-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "${PRODUCT_NAME}";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -570,13 +578,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JayRKit/JayRKit-Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "JayRKit/JayRKit-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "${PRODUCT_NAME}";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
