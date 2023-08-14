@@ -9,6 +9,8 @@
 #ifndef JRVerifyCodeInputView_h
 #define JRVerifyCodeInputView_h
 
+static CGFloat JRVerifyCodeViewHeight = 60;
+
 typedef NSUInteger JRVerifyCodeInputType;
 
 NS_ENUM(JRVerifyCodeInputType){
@@ -21,11 +23,11 @@ NS_ENUM(JRVerifyCodeInputType){
 
 @interface JRVerifyCodeInputView : UIView
 
-@property (nonatomic,readonly,assign) BOOL isFill;
+@property (nonatomic,assign) BOOL isFill;
 
+@property (nonatomic,assign) JRVerifyCodeInputType type;
 
-@property (nonatomic,readonly,assign) JRVerifyCodeInputType type;
-
+@property (nonatomic,strong) UILabel *numberLabel;
 
 
 @end

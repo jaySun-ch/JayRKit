@@ -1,0 +1,6 @@
+framework module JayRKit {
+  umbrella header "JayRKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

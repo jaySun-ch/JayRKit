@@ -17,6 +17,7 @@ static char *const blockTargetsTip = "blockTargetsTip";
 
 - (void)addBlockAction:(void (^)(JRTarget *sender))blockAction forControlEvents:(UIControlEvents)controlEvents{
     JRTarget *target = [[JRTarget alloc] initWithAction:blockAction];
+    target.context = self;
     [self addTarget:target action:@selector(invoke:) forControlEvents:controlEvents];
     NSString *eventName = JRStringFormControlEvent(controlEvents);
     NSAssert(eventName != nil,@"please check UIControlEvents is exist");

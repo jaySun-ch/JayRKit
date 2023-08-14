@@ -23,6 +23,7 @@ static char *const target_tip = "JRtarget_tip";
 
 - (void)addTapAction:(void (^)(JRTarget *sender))tapAction{
     JRTarget *target = [[JRTarget alloc] initWithAction:tapAction];
+    target.context = self.view;
     [self addTarget:target action:@selector(invoke:)];
     NSMutableArray *targets = [self AllJRTapGestureTargets];
     [targets addObject:target];

@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy) void (^action)(JRTarget *sender);
 
+@property (nonatomic,strong) UIView *context;
+
 - (instancetype)initWithAction:(void (^)(JRTarget *sender))action;
 
 - (void)invoke:(id)sender;

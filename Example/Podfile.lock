@@ -1,0 +1,16 @@
+PODS:
+  - JayRKit (0.1.1)
+
+DEPENDENCIES:
+  - JayRKit (from `../`)
+
+EXTERNAL SOURCES:
+  JayRKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JayRKit: 9a02d69a84b4786869f6574c4e7b2f0a1367d73a
+
+PODFILE CHECKSUM: b65a757aeb9201d03936b53d485de5ea7037e459
+
+COCOAPODS: 1.12.0

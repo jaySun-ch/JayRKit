@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "JRTarget.h"
 
-
 static inline NSString* JRStringFormControlEvent(UIControlEvents event){
     if (event == UIControlEventTouchDown) {
        return @"UIControlEventTouchDown";

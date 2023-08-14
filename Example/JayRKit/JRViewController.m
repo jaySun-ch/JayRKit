@@ -16,8 +16,6 @@ JRCreateModel(JRHomeConfig,
                 );
 
 
-
-
 @interface JRViewController ()
 
 @end
@@ -28,15 +26,13 @@ JRCreateModel(JRHomeConfig,
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    JRVerifyCodeInputView *codeView = [[JRVerifyCodeInputView alloc] init];
-    codeView.backgroundColor = [UIColor blueColor];
-    codeView.frame = CGRectMake(100,100,50,50);
+    JRFillVerifyCodeView *codeView = [[JRFillVerifyCodeView alloc] initWithCodeNumberLength:6 style:JRVerifyCodeInputCircle];
+    codeView.origin = CGPointMake(0,100);
     [self addSubView:codeView];
 }
 
 - (void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];
-
 }
 
 

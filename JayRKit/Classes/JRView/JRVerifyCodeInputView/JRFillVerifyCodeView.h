@@ -14,6 +14,7 @@
 
 @interface JRFillVerifyCodeView : UIView
 
+- (instancetype)initWithCodeNumberLength:(NSUInteger)length style:(JRVerifyCodeInputType)style;
 
 @end
 

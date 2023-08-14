@@ -40,12 +40,12 @@ static inline CGPathRef JRRectangle(CGSize rectangleSize){
 
 
 /** generate a circle path with width and radius
- *  @param width the width for circle container
+ *  @param size the size for circle container
  *  @param radius the radius for circle
  */
-static inline CGPathRef JRCircle(CGFloat width,CGFloat radius){
+static inline CGPathRef JRCircle(CGSize size,CGFloat radius){
     CGMutablePathRef path = CGPathCreateMutable();
-    CGPathAddArc(path,NULL,width / 2,width / 2,radius, 0, M_PI * 2, YES);
+    CGPathAddArc(path,NULL,size.width / 2,size.height / 2,radius, 0, M_PI * 2, YES);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextAddPath(context, path);
     return path;
