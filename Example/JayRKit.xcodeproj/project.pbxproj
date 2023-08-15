@@ -25,6 +25,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7A2C9F342A862AFF00D44F5D /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A2C9F332A862AFF00D44F5D /* test.json */; };
 		7A7A6F682A8A173100657C29 /* JayRKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A7A6F672A8A173100657C29 /* JayRKit-Info.plist */; };
+		7A9EF0032A8B284F006C807F /* JRDetialViewControllerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EF0022A8B284F006C807F /* JRDetialViewControllerGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2C9F332A862AFF00D44F5D /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		7A7A6F672A8A173100657C29 /* JayRKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JayRKit-Info.plist"; path = "../../JayRKit-Info.plist"; sourceTree = "<group>"; };
+		7A9EF0022A8B284F006C807F /* JRDetialViewControllerGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRDetialViewControllerGroup.m; sourceTree = "<group>"; };
+		7A9EF0042A8B2855006C807F /* JRDetialViewControllerGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRDetialViewControllerGroup.h; sourceTree = "<group>"; };
 		8780C2260A71DDB57516C121 /* Pods-JayRKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JayRKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-JayRKit_Tests/Pods-JayRKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		910FA3429A375D5BEBBF9EC6 /* Pods_JayRKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JayRKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A361B6A995EB1BE9EF8CD048 /* Pods-JayRKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JayRKit_Example.release.xcconfig"; path = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				6003F59D195388D20070C39A /* JRAppDelegate.m */,
 				6003F5A5195388D20070C39A /* JRViewController.h */,
 				6003F5A6195388D20070C39A /* JRViewController.m */,
+				7A9EF0042A8B2855006C807F /* JRDetialViewControllerGroup.h */,
+				7A9EF0022A8B284F006C807F /* JRDetialViewControllerGroup.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -249,7 +254,7 @@
 				ORGANIZATIONNAME = "jaySun-ch";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = JACGLW92PL;
+						DevelopmentTeam = TR8685W29A;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -308,10 +313,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JayRKit/JayRKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JayRKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -372,6 +379,7 @@
 				6003F59E195388D20070C39A /* JRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7A9EF0032A8B284F006C807F /* JRDetialViewControllerGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JACGLW92PL;
+				DEVELOPMENT_TEAM = TR8685W29A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JayRKit/JayRKit-Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
@@ -533,7 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JACGLW92PL;
+				DEVELOPMENT_TEAM = TR8685W29A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JayRKit/JayRKit-Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;

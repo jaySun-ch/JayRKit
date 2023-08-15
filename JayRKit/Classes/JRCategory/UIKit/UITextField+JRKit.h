@@ -8,17 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UITextField (JRKit)
 
-- (NSUInteger)maxInputWordLimit;
+@property (nonatomic) NSUInteger maxInputWordLimit;
 
-- (void)setMaxInputWordLimit:(NSUInteger )object;
-
-- (NSString *)maxInputString;
-
-- (void)setMaxInputString:(NSString *)object;
+@property (nonatomic) NSString * maxInputString;
 
 - (void)addWordLimit;
 

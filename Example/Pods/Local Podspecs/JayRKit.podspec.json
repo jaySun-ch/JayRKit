@@ -1,6 +1,6 @@
 {
   "name": "JayRKit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A Fully Function with iOS platform which will help you create APP",
   "description": "A clean and customizable photo gallery view controller for iOS. Allows app developers to easily display beautiful photo galleries in their apps. Includes features like customizable layouts, pinch to zoom, swipe to dismiss, delete photos, etc. Designed to make it simple for developers to add a great photo gallery experience. Focused on performance, customization and ease of use.",
   "homepage": "https://github.com/jaySun-ch/JayRKit",
@@ -12,8 +12,8 @@
     "jaySun-ch": "szhixiong2022@163.com"
   },
   "source": {
-    "git": "https://github.com/jaySun-ch/JayRKit",
-    "tag": "0.1.2"
+    "git": "https://github.com/jaySun-ch/JayRKit.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,9 +25,9 @@
     "GENERATE_INFOPLIST_FILE": "YES"
   },
   "source_files": "JayRKit/Classes/**/*",
-  "resource_bundles": {
-    "JayRKit": [
-      "JayRKit/Assets/*.png"
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
     ]
   }
 }

@@ -13,6 +13,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (JRKit)
 
+@property (nonatomic) UIColor *backgroundColor;
+
+- (CGRect)bounds;
+
+
+
+@end
+
+@interface UIViewController (JRMethodExtension)
+
 - (void)addSubView:(UIView *)subView;
 
 - (void)removeAllSubViews;
