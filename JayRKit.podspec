@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jaySun-ch' => 'szhixiong2022@163.com' }
-  s.source           = { :git => 'https://github.com/jaySun-ch/JayRKit', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jaySun-ch/JayRKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
@@ -40,9 +40,9 @@ Pod::Spec.new do |s|
     
   s.source_files = 'JayRKit/Classes/**/*'
   
-  s.resource_bundles = {
-    'JayRKit' => ['JayRKit/Assets/*.png']
-  }
+#  s.resource_bundles = {
+#    'JayRKit' => ['JayRKit/Assets/*.png']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

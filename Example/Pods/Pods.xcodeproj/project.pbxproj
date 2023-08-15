@@ -7,64 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00A0E739588AB9E7704836D1982B84B9 /* JRTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = D58E61E79AAEF3230623953F749711EF /* JRTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		094DCD352CDFCB3FCEB1E18E642631B4 /* JayRKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EFE858454EC569099B08155018460E /* JayRKit-dummy.m */; };
-		0E2D3F3FD121F36A527081C119266DD0 /* UIButton+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1579EC43E061505DC46B405E81D178 /* UIButton+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F90A857C1CD1C7AA69BF6809A3A758A /* NSString+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DB5494AF282CB2F96E8DE5C4894D6 /* NSString+JRKit.m */; };
-		0FE274570B78644660554DB2A2788DA0 /* JayRKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6BB25CA70F5BB89B6499C1AF448B38 /* JayRKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F969350F5C3D5F6726A10AB950F2B62 /* JRVerifyCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9249C8AFDAAE8F2CD682EF6A410A79 /* JRVerifyCodeInputView.m */; };
-		26586DDEAB848DC24DBFC64C0AD935D3 /* JRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D768978262E180383433DA0933B74DDF /* JRModel.m */; };
-		32775684F59ECBEB213BAF07E446B639 /* UIView+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 809D60D51BCEC5096CEA5E9C698D2344 /* UIView+JRKit.m */; };
-		35348E9EEA540DAEED4269870E27142C /* Pods-JayRKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D23BB631E52CB0DFD8899E88E7AB3 /* Pods-JayRKit_Tests-dummy.m */; };
-		3612CC1C53B305B13A7261983A3ECB6E /* UIControl+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB36E7D8C70EDCC10D1184295668EA9B /* UIControl+JRKit.m */; };
-		3D9EF5B12A8A87BE00902FB4 /* JRDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9EF5B02A8A87BE00902FB4 /* JRDefine.h */; };
-		3D9EF5B42A8A989400902FB4 /* UITextField+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9EF5B22A8A989400902FB4 /* UITextField+JRKit.h */; };
-		3D9EF5B52A8A989400902FB4 /* UITextField+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9EF5B32A8A989400902FB4 /* UITextField+JRKit.m */; };
-		3E8B526A244984981EE1B3B693830F71 /* UITapGestureRecognizer+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C02FBAC60ED69A16F175A07DC68C27 /* UITapGestureRecognizer+JRKit.m */; };
-		47D5C2C0DB509B4C6198ACBB9FC8D263 /* JayRKit-JayRKit in Resources */ = {isa = PBXBuildFile; fileRef = 41FDACB48F07FB630643333A0ECA1396 /* JayRKit-JayRKit */; };
-		6C131CA39FCCA41257AF727C4F4A05EB /* UIViewController+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFE8BED4A782FFBC40AF1BB08D9CD75 /* UIViewController+JRKit.m */; };
-		6DC89C92CDE3031B7A201FE1A594CA6B /* UITapGestureRecognizer+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAA98DD125BF833C6736331821A7563 /* UITapGestureRecognizer+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FD30894A42464316A942498ADF9D90C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7A776CA8B0D59F0A7CF40CA9B3810CAB /* NSObject+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 082B161A4D5B49782EB1AAA89DCCA0C2 /* NSObject+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BBE49A178051D3A4EF1472B480F0484 /* JRFillVerifyCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E63FCA7461852431933F8AD15ACF67 /* JRFillVerifyCodeView.m */; };
-		8243629DA7038789AAF997FC5A5840D5 /* Pods-JayRKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D00BA4CBC869DE9FEEC2E075241E961 /* Pods-JayRKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		844FB2928F2FDF815EB2EE234EB09C17 /* NSString+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AFE790FFF407D7F08C94CAE67C72A4 /* NSString+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		984DC405B8D86510CAE0FA322E64B270 /* JRTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 96957871F7D78C57F3A7308D8462C190 /* JRTarget.m */; };
-		99782F9B30DCB275D00CA609BF2C757E /* Pods-JayRKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 240D75D4D350AB8703DC51648C5C5224 /* Pods-JayRKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DEE66DEAD3CE86C2ECA1AFE32FF1849 /* JRPath.h in Headers */ = {isa = PBXBuildFile; fileRef = D444CFF26941DB53C23B1605D35F1642 /* JRPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2D2487A212C8D3B449E4CE1C8D130CE /* Pods-JayRKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2F61C44740F102C7079ADB785EE9A /* Pods-JayRKit_Example-dummy.m */; };
-		A61C5A4B2B3A5C75EDE90A3715414473 /* JRVerifyCodeInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1684B0F6195434F53E5CFD2D02F2939B /* JRVerifyCodeInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A83FDAC26E26E8FF62A6518799F1FCA6 /* JRFillVerifyCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5565F7031CD1CC85E66CBBAD3B0EFC /* JRFillVerifyCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA329AAAC8FC3FFEFF26FDB4CA80BDBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CE580807A5FC02C2D79EB9F462003A7C /* JRDebugManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F89D529048F8517A7F7ABD160AF137E /* JRDebugManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEF8B49191597C104E8912827E9C2C45 /* UIViewController+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CB68BC62BD0752DE90DECAD893BCA836 /* UIViewController+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8785AD3B954C4CA3F7413DBA7207723 /* JRModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE746295B275FA8A2872661F81916AF /* JRModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBBB3C3AFA630541727FCA4EA9CA5ECE /* JRMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E1AAAAF77B441E5E09DF26B153FCAB /* JRMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E94AB15D692C06E2B61C801447936DBD /* JayRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D182D80E37D4FEA34E9B7DB775BDDDC /* JayRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9732BE8C69F399D8ABABC34BC62A12F /* UIButton+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1A918F9B667B13D27B381AB1CAB17E /* UIButton+JRKit.m */; };
-		EBC3EF20FE5659256D285169E58F5E82 /* NSObject+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE756E1F265CB679760C2D02AB901F2 /* NSObject+JRKit.m */; };
-		F0840B3CA1DD4B17E894CF381DF18176 /* JRDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A61CE5C8079C11190297E31A8D329692 /* JRDebugManager.m */; };
-		F517C2CF610CB6E2E8D0538F705BEEE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F9C79840FB955BEC0C98A4B5037A7144 /* UIControl+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A62744DDEC635288342B0857ED50E3 /* UIControl+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDC6AF2843EEA70B5604F83509BC1C63 /* UIView+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C4EB755275C92F31BAD09812CCDCF7 /* UIView+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		003037966048972A11F6920325D35B47 /* JayRKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82800D369E65500F0C11FC8AC4566709 /* JayRKit-dummy.m */; };
+		00362E42A3078830D49B6704AB7D8676 /* UIView+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 581129811BD2CD524C1DD36C52D4C22A /* UIView+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03C6898D0F29B56E8C14E2B99BAE56BB /* UIButton+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C24230A18B628F27D66AABE1FCEDD /* UIButton+JRKit.m */; };
+		0739BA6C0A6641C54174014ED50A7521 /* JRVerifyCodeInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2851488FE32AECC26BDE4B87F4CA3F0F /* JRVerifyCodeInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07E9742EA41F00E1B916146692677D15 /* UIButton+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B3451003585CF8848F79FC0D8C3895 /* UIButton+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0F7BD9B6BB5B8E06B59E1C239923AC /* Pods-JayRKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E2F61C44740F102C7079ADB785EE9A /* Pods-JayRKit_Example-dummy.m */; };
+		0F5E502F000FB99166F2B603C90EEA81 /* NSString+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9DF2B762F46AD7D2A219BBC77B662 /* NSString+JRKit.m */; };
+		1220CE0A6D87946EB0DB3FDE99CB8981 /* JRDebugManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2FB37A93E7B953FE20BE4B6A1D0B77 /* JRDebugManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD6770F3A5AD45E02FC226EDA873A51 /* JRFillVerifyCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D38648D6F8E7F9FFA9C1B24DECB0CE62 /* JRFillVerifyCodeView.m */; };
+		23D8F01C3BBD8D38B17FC6406696FC26 /* UIViewController+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAD6F16EBCA5B72C1A1257D02A7402B /* UIViewController+JRKit.m */; };
+		2494C9DC82FB07030FDA678FB3332FE4 /* UIViewController+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CD209B254946AE456C7D93D871FDE6 /* UIViewController+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258CFA685A859E3F0EE1CD358DB808F9 /* JRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBBBE8506E4163400E710BEF5C25723 /* JRModel.m */; };
+		2D10DED17353B58A5E93A4D0A911F066 /* Pods-JayRKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D00BA4CBC869DE9FEEC2E075241E961 /* Pods-JayRKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CA167E7C2AE0641EA3CC2880562F517 /* JRDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A0A95CBDCD804FBCFB50711E231056 /* JRDebugManager.m */; };
+		40D8EE7F39FFD092D63F9B4C79411104 /* Pods-JayRKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D23BB631E52CB0DFD8899E88E7AB3 /* Pods-JayRKit_Tests-dummy.m */; };
+		43DF5A275C46B98E1BD4192DDE5D1923 /* JRModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D945E75007CA92DFBFD07B5F0FAC0D /* JRModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD80CAB086A06270EEB69D3DEA26A22 /* UITapGestureRecognizer+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 913CB8B98A0833D85CC0AA77357016B1 /* UITapGestureRecognizer+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56613DD31C78401864B4BBC2551E2BC1 /* JRMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 041A07B4384FCB6130523393B2AEB951 /* JRMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58C87A0D4399781A30977C60569D2DFA /* JRVerifyCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151457F0D680E62A2606DBD1F7842B33 /* JRVerifyCodeInputView.m */; };
+		838D07781752D6D599838F53732BA61F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8AC86980187588359268F2F1BA38EF25 /* UIView+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E83E4F50CEF9C41423F6A35BC7DA3F /* UIView+JRKit.m */; };
+		948641E30B9A5E9F2820EFDECBF0ADDE /* UITapGestureRecognizer+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C3A0748CD43C726D630A2E0AB4E07C /* UITapGestureRecognizer+JRKit.m */; };
+		98448E9DDFE21A58A0B9C691E60B8CB7 /* UITextField+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AF80114C6547C8E8C4326868633CC1 /* UITextField+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0167D81BF0FAF8D599202CF9E7A134F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A0BB27945E2BBA3AA7BF6647DCEAB147 /* NSString+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B630A7EA33F77997243AB7DF9E1E72BF /* NSString+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A44FB888A4F9879222C071B1B73991FF /* UIControl+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 043733D42BE17321CB800BF61A6E1B64 /* UIControl+JRKit.m */; };
+		A70A26AB3C694DB08AA476224C29332D /* Pods-JayRKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 240D75D4D350AB8703DC51648C5C5224 /* Pods-JayRKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A788C9FB392E8ABEEECC178269A827EF /* UIControl+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC05B12EF4E9F77EA3713360CBEA464B /* UIControl+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0D050160C487304A2693B5A0D0141D4 /* JayRKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C242071378EDEDDCECC3928924FD4B18 /* JayRKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B417AF6BEFDA867080FD354DEAD74FE6 /* JRPath.h in Headers */ = {isa = PBXBuildFile; fileRef = A20A9F85962ED5FE0FD6362C4F223CFC /* JRPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D07D963AC4EB0D77F3F41AC31E866A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B96CE267B841390E65F39DBD4B9699E4 /* NSObject+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 91BD40FA3602C3194C502777697B12B0 /* NSObject+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1428EC822460E6C6F1E2E756CA2B31 /* JayRKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41FDACB48F07FB630643333A0ECA1396 /* JayRKit.bundle */; };
+		BFEAA57A4A269D224D9F0A2C5573977E /* JRDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 310A13630FE8672D9C3F059892C542B6 /* JRDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D80895FE1847A44BD0F81E395B25538A /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6B2D3C26C41A95BC43A6064B5FB7A1 /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D966019DE59F1674DF4E5A710A48F068 /* JRTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = E46702B45D14F9FF936C0B3EF37C0AEB /* JRTarget.m */; };
+		DC085C807E8DC09B7810E1B524567DE1 /* JRTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = B78826A03BDB576BEBC705C447F50AAA /* JRTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE93E84EDC36F997920299EFECFDD583 /* JayRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 483CA7B1FB1A7F993B97B822790A6184 /* JayRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FBA934DBF90CC3CF42674EAE659CE2 /* NSObject+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBC949E0D9E3414A5C6E7ADBE732394 /* NSObject+JRKit.m */; };
+		F804041B27BB62DD784278AD7093F191 /* UITextField+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B598520C947D282DF37F92A590043 /* UITextField+JRKit.m */; };
+		FF2344B75C2C4D61AE1565322DE02245 /* JRFillVerifyCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5741A86FFFD5CEA398151F9995E155 /* JRFillVerifyCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E776CAC2477375F6D974A391E345CA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1683B649ECF78B9847CF1BC5F7A63AD9;
-			remoteInfo = JayRKit;
-		};
-		DF58FBD9B9D87A03C792CDE464BC71D9 /* PBXContainerItemProxy */ = {
+		ABDFA66A85CBC121351782B94D9A7623 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 83D89770B600EC3E7468C25BC08FBF85;
 			remoteInfo = "JayRKit-JayRKit";
 		};
-		F7CA4D37244256E2B52B23C4D16F864C /* PBXContainerItemProxy */ = {
+		BF95289C480B1FD66A103AE060E184A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1683B649ECF78B9847CF1BC5F7A63AD9;
+			remoteInfo = JayRKit;
+		};
+		CF1A405C6DC91E3FDDCB69CF7683448E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -74,152 +75,187 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05476509E6541D3A893315DA9B587A3D /* Pods-JayRKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JayRKit_Tests"; path = Pods_JayRKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		082B161A4D5B49782EB1AAA89DCCA0C2 /* NSObject+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+JRKit.h"; sourceTree = "<group>"; };
-		0F6BB25CA70F5BB89B6499C1AF448B38 /* JayRKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JayRKit-umbrella.h"; sourceTree = "<group>"; };
+		041A07B4384FCB6130523393B2AEB951 /* JRMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRMacro.h; sourceTree = "<group>"; };
+		043733D42BE17321CB800BF61A6E1B64 /* UIControl+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+JRKit.m"; sourceTree = "<group>"; };
+		05476509E6541D3A893315DA9B587A3D /* Pods_JayRKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JayRKit_Tests.framework; path = "Pods-JayRKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AF80114C6547C8E8C4326868633CC1 /* UITextField+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+JRKit.h"; sourceTree = "<group>"; };
+		151457F0D680E62A2606DBD1F7842B33 /* JRVerifyCodeInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRVerifyCodeInputView.m; sourceTree = "<group>"; };
 		15AE92A562412ADBF4513E86D74715FC /* Pods-JayRKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JayRKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1684B0F6195434F53E5CFD2D02F2939B /* JRVerifyCodeInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRVerifyCodeInputView.h; sourceTree = "<group>"; };
-		1F89D529048F8517A7F7ABD160AF137E /* JRDebugManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRDebugManager.h; sourceTree = "<group>"; };
 		240D75D4D350AB8703DC51648C5C5224 /* Pods-JayRKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JayRKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		25E63FCA7461852431933F8AD15ACF67 /* JRFillVerifyCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRFillVerifyCodeView.m; sourceTree = "<group>"; };
-		289B732DBCD79F2000B706DD5C13C31E /* JayRKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JayRKit-prefix.pch"; sourceTree = "<group>"; };
+		2851488FE32AECC26BDE4B87F4CA3F0F /* JRVerifyCodeInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRVerifyCodeInputView.h; sourceTree = "<group>"; };
+		29E83E4F50CEF9C41423F6A35BC7DA3F /* UIView+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+JRKit.m"; sourceTree = "<group>"; };
 		2CE5BED1745509F6447065A8E4EC7E2D /* Pods-JayRKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JayRKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F72EA8315164F2AA3FA316B9E5A0C9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		384DCAD508D17FEB5AD9DD22E33AC023 /* JayRKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JayRKit.release.xcconfig; sourceTree = "<group>"; };
+		310A13630FE8672D9C3F059892C542B6 /* JRDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRDefine.h; sourceTree = "<group>"; };
+		33FC03D32FA7A4FA669E0CC1DFD10AC2 /* JayRKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JayRKit-Info.plist"; sourceTree = "<group>"; };
+		39D945E75007CA92DFBFD07B5F0FAC0D /* JRModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRModel.h; sourceTree = "<group>"; };
 		3D00BA4CBC869DE9FEEC2E075241E961 /* Pods-JayRKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JayRKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3D9EF5B02A8A87BE00902FB4 /* JRDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRDefine.h; sourceTree = "<group>"; };
-		3D9EF5B22A8A989400902FB4 /* UITextField+JRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+JRKit.h"; sourceTree = "<group>"; };
-		3D9EF5B32A8A989400902FB4 /* UITextField+JRKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JRKit.m"; sourceTree = "<group>"; };
-		41FDACB48F07FB630643333A0ECA1396 /* JayRKit-JayRKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JayRKit-JayRKit"; path = JayRKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		47EFE858454EC569099B08155018460E /* JayRKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JayRKit-dummy.m"; sourceTree = "<group>"; };
-		4B1579EC43E061505DC46B405E81D178 /* UIButton+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+JRKit.h"; sourceTree = "<group>"; };
+		3DD89A6DAB3CAC2DEB1A49159FB68F8E /* JayRKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JayRKit.debug.xcconfig; sourceTree = "<group>"; };
+		3E3CCA12BDCAC7D2E67518ED7284ABA0 /* JayRKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JayRKit-prefix.pch"; sourceTree = "<group>"; };
+		41CD209B254946AE456C7D93D871FDE6 /* UIViewController+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JRKit.h"; sourceTree = "<group>"; };
+		41FDACB48F07FB630643333A0ECA1396 /* JayRKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JayRKit.bundle; path = "JayRKit-JayRKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		483CA7B1FB1A7F993B97B822790A6184 /* JayRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JayRKit.h; path = JayRKit/Classes/JayRKit.h; sourceTree = "<group>"; };
 		4FD5E3116235BC81020D9174AF74D89C /* Pods-JayRKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JayRKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		503FE8BC4A7EE771C418C94F70A94BA7 /* Pods-JayRKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JayRKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		50C4EB755275C92F31BAD09812CCDCF7 /* UIView+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+JRKit.h"; sourceTree = "<group>"; };
-		51E1AAAAF77B441E5E09DF26B153FCAB /* JRMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRMacro.h; sourceTree = "<group>"; };
 		5211EC2C5AA3B00173F7333AA0F1CFD2 /* Pods-JayRKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JayRKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		57956B903BD3955DAA6E73607CAEDF83 /* ResourceBundle-JayRKit-JayRKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JayRKit-JayRKit-Info.plist"; sourceTree = "<group>"; };
-		5D182D80E37D4FEA34E9B7DB775BDDDC /* JayRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JayRKit.h; path = JayRKit/Classes/JayRKit.h; sourceTree = "<group>"; };
-		5D5565F7031CD1CC85E66CBBAD3B0EFC /* JRFillVerifyCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRFillVerifyCodeView.h; sourceTree = "<group>"; };
-		5D9249C8AFDAAE8F2CD682EF6A410A79 /* JRVerifyCodeInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRVerifyCodeInputView.m; sourceTree = "<group>"; };
+		543C24230A18B628F27D66AABE1FCEDD /* UIButton+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JRKit.m"; sourceTree = "<group>"; };
+		581129811BD2CD524C1DD36C52D4C22A /* UIView+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+JRKit.h"; sourceTree = "<group>"; };
+		5F5741A86FFFD5CEA398151F9995E155 /* JRFillVerifyCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRFillVerifyCodeView.h; sourceTree = "<group>"; };
 		62BD2A1294E0E4BD3EBE18A042E64075 /* Pods-JayRKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JayRKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		64AFE790FFF407D7F08C94CAE67C72A4 /* NSString+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JRKit.h"; sourceTree = "<group>"; };
-		6B1A918F9B667B13D27B381AB1CAB17E /* UIButton+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JRKit.m"; sourceTree = "<group>"; };
+		65C3A0748CD43C726D630A2E0AB4E07C /* UITapGestureRecognizer+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+JRKit.m"; sourceTree = "<group>"; };
 		7128F9D1E6715008D8BAF8C131393C90 /* Pods-JayRKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JayRKit_Example.modulemap"; sourceTree = "<group>"; };
 		71E2F61C44740F102C7079ADB785EE9A /* Pods-JayRKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JayRKit_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		761D23BB631E52CB0DFD8899E88E7AB3 /* Pods-JayRKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JayRKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		809D60D51BCEC5096CEA5E9C698D2344 /* UIView+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+JRKit.m"; sourceTree = "<group>"; };
+		7AC09A8C0EC9D0BD37F56D5479548BE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8146F7CDFC6361FED1509E50B48EC7F3 /* ResourceBundle-JayRKit-JayRKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JayRKit-JayRKit-Info.plist"; sourceTree = "<group>"; };
+		82800D369E65500F0C11FC8AC4566709 /* JayRKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JayRKit-dummy.m"; sourceTree = "<group>"; };
 		83FF346B4FD54C38BDC24731D53ABA81 /* Pods-JayRKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JayRKit_Example-Info.plist"; sourceTree = "<group>"; };
-		84C02FBAC60ED69A16F175A07DC68C27 /* UITapGestureRecognizer+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+JRKit.m"; sourceTree = "<group>"; };
 		8537FE4E94C1DB3C9F28B397696C29E4 /* Pods-JayRKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JayRKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		94F9880B362E942665D77D3A371C7B56 /* JayRKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JayRKit.modulemap; sourceTree = "<group>"; };
-		96957871F7D78C57F3A7308D8462C190 /* JRTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRTarget.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A61CE5C8079C11190297E31A8D329692 /* JRDebugManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRDebugManager.m; sourceTree = "<group>"; };
-		ACC229787E3E97605C6E486761A9D62A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B0A62744DDEC635288342B0857ED50E3 /* UIControl+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+JRKit.h"; sourceTree = "<group>"; };
-		B4EA3C365216906A5D6E7330807E4253 /* JayRKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JayRKit-Info.plist"; sourceTree = "<group>"; };
-		BAE746295B275FA8A2872661F81916AF /* JRModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRModel.h; sourceTree = "<group>"; };
+		875ECEE17E6874D265BF4FAB7F952559 /* JayRKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JayRKit.release.xcconfig; sourceTree = "<group>"; };
+		90A0A95CBDCD804FBCFB50711E231056 /* JRDebugManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRDebugManager.m; sourceTree = "<group>"; };
+		913CB8B98A0833D85CC0AA77357016B1 /* UITapGestureRecognizer+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+JRKit.h"; sourceTree = "<group>"; };
+		91BD40FA3602C3194C502777697B12B0 /* NSObject+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+JRKit.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA9DF2B762F46AD7D2A219BBC77B662 /* NSString+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+JRKit.m"; sourceTree = "<group>"; };
+		A20A9F85962ED5FE0FD6362C4F223CFC /* JRPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRPath.h; sourceTree = "<group>"; };
+		AEBBBE8506E4163400E710BEF5C25723 /* JRModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRModel.m; sourceTree = "<group>"; };
+		B630A7EA33F77997243AB7DF9E1E72BF /* NSString+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JRKit.h"; sourceTree = "<group>"; };
+		B78826A03BDB576BEBC705C447F50AAA /* JRTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRTarget.h; sourceTree = "<group>"; };
 		BC5E2DC901B630B5E64FD4FF41A06743 /* Pods-JayRKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JayRKit_Tests.modulemap"; sourceTree = "<group>"; };
 		BD885F55349B0771DD76312BA4D87748 /* Pods-JayRKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JayRKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C0547F3CA93B386E584CA20EC826CCC4 /* Pods-JayRKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JayRKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C14D302DFDEB3EFDD18185A2AA94D3FE /* JayRKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JayRKit.debug.xcconfig; sourceTree = "<group>"; };
-		C56B7C69399194792898EB9F5EF225F5 /* JayRKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JayRKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CAE756E1F265CB679760C2D02AB901F2 /* NSObject+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JRKit.m"; sourceTree = "<group>"; };
-		CB68BC62BD0752DE90DECAD893BCA836 /* UIViewController+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JRKit.h"; sourceTree = "<group>"; };
-		D444CFF26941DB53C23B1605D35F1642 /* JRPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRPath.h; sourceTree = "<group>"; };
-		D58E61E79AAEF3230623953F749711EF /* JRTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRTarget.h; sourceTree = "<group>"; };
-		D768978262E180383433DA0933B74DDF /* JRModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRModel.m; sourceTree = "<group>"; };
-		DB36E7D8C70EDCC10D1184295668EA9B /* UIControl+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+JRKit.m"; sourceTree = "<group>"; };
-		DFFE8BED4A782FFBC40AF1BB08D9CD75 /* UIViewController+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JRKit.m"; sourceTree = "<group>"; };
-		E046F25C824EF3516742847485FB8EA1 /* Pods-JayRKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JayRKit_Example"; path = Pods_JayRKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6034647FC070B228E32537391024EBB /* JayRKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JayRKit; path = JayRKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F15DB5494AF282CB2F96E8DE5C4894D6 /* NSString+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+JRKit.m"; sourceTree = "<group>"; };
+		C242071378EDEDDCECC3928924FD4B18 /* JayRKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JayRKit-umbrella.h"; sourceTree = "<group>"; };
+		CB2B598520C947D282DF37F92A590043 /* UITextField+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JRKit.m"; sourceTree = "<group>"; };
+		CDBC949E0D9E3414A5C6E7ADBE732394 /* NSObject+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JRKit.m"; sourceTree = "<group>"; };
+		D38648D6F8E7F9FFA9C1B24DECB0CE62 /* JRFillVerifyCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRFillVerifyCodeView.m; sourceTree = "<group>"; };
+		DA2FB37A93E7B953FE20BE4B6A1D0B77 /* JRDebugManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRDebugManager.h; sourceTree = "<group>"; };
+		DD92AFA23AD61CBDFC65197BD6A5B0E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E046F25C824EF3516742847485FB8EA1 /* Pods_JayRKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JayRKit_Example.framework; path = "Pods-JayRKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B3451003585CF8848F79FC0D8C3895 /* UIButton+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+JRKit.h"; sourceTree = "<group>"; };
+		E46702B45D14F9FF936C0B3EF37C0AEB /* JRTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRTarget.m; sourceTree = "<group>"; };
+		E6034647FC070B228E32537391024EBB /* JayRKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JayRKit.framework; path = JayRKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA00716B99C467E93D65F7D3B26D924 /* JayRKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JayRKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC05B12EF4E9F77EA3713360CBEA464B /* UIControl+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+JRKit.h"; sourceTree = "<group>"; };
+		EC6B2D3C26C41A95BC43A6064B5FB7A1 /* Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F3A4C45B1A90251F6E23FCAB7722AEFC /* JayRKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JayRKit.modulemap; sourceTree = "<group>"; };
 		F47407028A7F30DF6CBEBC6327C7060E /* Pods-JayRKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JayRKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FEAA98DD125BF833C6736331821A7563 /* UITapGestureRecognizer+JRKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+JRKit.h"; sourceTree = "<group>"; };
+		FFAD6F16EBCA5B72C1A1257D02A7402B /* UIViewController+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JRKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		19A533A9B1AAAEB7A1D1EC3E8BAB156B /* Frameworks */ = {
+		0C70AFAF6C11CBF6F1B040ED5663EA26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA329AAAC8FC3FFEFF26FDB4CA80BDBD /* Foundation.framework in Frameworks */,
+				838D07781752D6D599838F53732BA61F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39E853E74F7A59CD120874C0C728551B /* Frameworks */ = {
+		2EB9E4F28E7A20DDE7E6604D6755DC39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD41A5533A00702566F49D8FA2D19E01 /* Frameworks */ = {
+		D18B2231231F41B389EC46E84B50D5A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FD30894A42464316A942498ADF9D90C /* Foundation.framework in Frameworks */,
+				B8D07D963AC4EB0D77F3F41AC31E866A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEEBFB0AC4A2C7F64DAFCDE52CCC1013 /* Frameworks */ = {
+		D7FCCFD5E474A5AA4A0DBCC893EA4C4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F517C2CF610CB6E2E8D0538F705BEEE7 /* Foundation.framework in Frameworks */,
+				A0167D81BF0FAF8D599202CF9E7A134F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DE22EF83125DDF2C8E0077173E181C6 /* Products */ = {
+		101796F90EEDAD03F038F5279F6EE2CE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				E6034647FC070B228E32537391024EBB /* JayRKit */,
-				41FDACB48F07FB630643333A0ECA1396 /* JayRKit-JayRKit */,
-				E046F25C824EF3516742847485FB8EA1 /* Pods-JayRKit_Example */,
-				05476509E6541D3A893315DA9B587A3D /* Pods-JayRKit_Tests */,
+				E3B3451003585CF8848F79FC0D8C3895 /* UIButton+JRKit.h */,
+				543C24230A18B628F27D66AABE1FCEDD /* UIButton+JRKit.m */,
+				EC05B12EF4E9F77EA3713360CBEA464B /* UIControl+JRKit.h */,
+				043733D42BE17321CB800BF61A6E1B64 /* UIControl+JRKit.m */,
+				913CB8B98A0833D85CC0AA77357016B1 /* UITapGestureRecognizer+JRKit.h */,
+				65C3A0748CD43C726D630A2E0AB4E07C /* UITapGestureRecognizer+JRKit.m */,
+				05AF80114C6547C8E8C4326868633CC1 /* UITextField+JRKit.h */,
+				CB2B598520C947D282DF37F92A590043 /* UITextField+JRKit.m */,
+				581129811BD2CD524C1DD36C52D4C22A /* UIView+JRKit.h */,
+				29E83E4F50CEF9C41423F6A35BC7DA3F /* UIView+JRKit.m */,
+				41CD209B254946AE456C7D93D871FDE6 /* UIViewController+JRKit.h */,
+				FFAD6F16EBCA5B72C1A1257D02A7402B /* UIViewController+JRKit.m */,
 			);
-			name = Products;
+			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
-		43CD5B03692517AACC3D8A4A4ECE4C21 /* JayRKit */ = {
+		228E6EA3351EFBB3BA8DADA7E8DF539C /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				5D182D80E37D4FEA34E9B7DB775BDDDC /* JayRKit.h */,
-				A3E414CEA4B5ED319765147A6A3A3D43 /* JRCategory */,
-				7D456DA22D32FD91FF4DC3CFB8A2D3BC /* JRDebugManager */,
-				DB1CA747AEC5D16180E133CAB6D325C6 /* JRMacro */,
-				EA3FC2B7A839955B89CAE1A2A18A9E69 /* JRObject */,
-				5173B52C390F5FCEB5494F622F2EC46A /* JRView */,
-				FCBA1F86DD2C9148DAC3F778D081D0EB /* Pod */,
-				EDE95B2D8D2F62112A2E1F0F028B0AC8 /* Support Files */,
+				91BD40FA3602C3194C502777697B12B0 /* NSObject+JRKit.h */,
+				CDBC949E0D9E3414A5C6E7ADBE732394 /* NSObject+JRKit.m */,
+				B630A7EA33F77997243AB7DF9E1E72BF /* NSString+JRKit.h */,
+				9EA9DF2B762F46AD7D2A219BBC77B662 /* NSString+JRKit.m */,
+			);
+			name = Foundation;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		40460939CA8AD713CB617530362E378E /* JayRKit */ = {
+			isa = PBXGroup;
+			children = (
+				483CA7B1FB1A7F993B97B822790A6184 /* JayRKit.h */,
+				AFBF55790D2AE18316812E082EBED499 /* JRCategory */,
+				EDBA4FA0A384D8DFB80913677DAFD8FA /* JRDebugManager */,
+				526958F3958B3B3116ACB9113120F9F5 /* JRMacro */,
+				4D880C2E64BE1D3CD94C0672DF0F2B5D /* JRObject */,
+				BDD9A1B09CD0700296D1158F82CCF41B /* JRView */,
+				4A84DCD0180B4335F6F9426E3389DC94 /* Pod */,
+				F0473057B2209D5DC4194C7D7CCBC4FC /* Support Files */,
 			);
 			name = JayRKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		484E61865626B83EFB5271D39DDA6CE1 /* Foundation */ = {
+		4A84DCD0180B4335F6F9426E3389DC94 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				082B161A4D5B49782EB1AAA89DCCA0C2 /* NSObject+JRKit.h */,
-				CAE756E1F265CB679760C2D02AB901F2 /* NSObject+JRKit.m */,
-				64AFE790FFF407D7F08C94CAE67C72A4 /* NSString+JRKit.h */,
-				F15DB5494AF282CB2F96E8DE5C4894D6 /* NSString+JRKit.m */,
+				EBA00716B99C467E93D65F7D3B26D924 /* JayRKit.podspec */,
+				DD92AFA23AD61CBDFC65197BD6A5B0E4 /* LICENSE */,
+				7AC09A8C0EC9D0BD37F56D5479548BE7 /* README.md */,
 			);
-			path = Foundation;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		5173B52C390F5FCEB5494F622F2EC46A /* JRView */ = {
+		4D880C2E64BE1D3CD94C0672DF0F2B5D /* JRObject */ = {
 			isa = PBXGroup;
 			children = (
-				9DB3F0CC7901AC986862CCB26984B2C9 /* JRVerifyCodeInputView */,
+				39D945E75007CA92DFBFD07B5F0FAC0D /* JRModel.h */,
+				AEBBBE8506E4163400E710BEF5C25723 /* JRModel.m */,
+				B78826A03BDB576BEBC705C447F50AAA /* JRTarget.h */,
+				E46702B45D14F9FF936C0B3EF37C0AEB /* JRTarget.m */,
 			);
-			name = JRView;
-			path = JayRKit/Classes/JRView;
+			name = JRObject;
+			path = JayRKit/Classes/JRObject;
+			sourceTree = "<group>";
+		};
+		526958F3958B3B3116ACB9113120F9F5 /* JRMacro */ = {
+			isa = PBXGroup;
+			children = (
+				310A13630FE8672D9C3F059892C542B6 /* JRDefine.h */,
+				041A07B4384FCB6130523393B2AEB951 /* JRMacro.h */,
+				A20A9F85962ED5FE0FD6362C4F223CFC /* JRPath.h */,
+			);
+			name = JRMacro;
+			path = JayRKit/Classes/JRMacro;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -228,16 +264,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7D456DA22D32FD91FF4DC3CFB8A2D3BC /* JRDebugManager */ = {
-			isa = PBXGroup;
-			children = (
-				1F89D529048F8517A7F7ABD160AF137E /* JRDebugManager.h */,
-				A61CE5C8079C11190297E31A8D329692 /* JRDebugManager.m */,
-			);
-			name = JRDebugManager;
-			path = JayRKit/Classes/JRDebugManager;
 			sourceTree = "<group>";
 		};
 		9284AEB3668BBBCD96CB7501487F4404 /* Pods-JayRKit_Tests */ = {
@@ -256,23 +282,15 @@
 			path = "Target Support Files/Pods-JayRKit_Tests";
 			sourceTree = "<group>";
 		};
-		9AAF8528F7413CA103870C1E86D78F6B /* UIKit */ = {
+		995BE7C98C0EF52965F7A72EA6D80B77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B1579EC43E061505DC46B405E81D178 /* UIButton+JRKit.h */,
-				6B1A918F9B667B13D27B381AB1CAB17E /* UIButton+JRKit.m */,
-				B0A62744DDEC635288342B0857ED50E3 /* UIControl+JRKit.h */,
-				DB36E7D8C70EDCC10D1184295668EA9B /* UIControl+JRKit.m */,
-				FEAA98DD125BF833C6736331821A7563 /* UITapGestureRecognizer+JRKit.h */,
-				84C02FBAC60ED69A16F175A07DC68C27 /* UITapGestureRecognizer+JRKit.m */,
-				50C4EB755275C92F31BAD09812CCDCF7 /* UIView+JRKit.h */,
-				809D60D51BCEC5096CEA5E9C698D2344 /* UIView+JRKit.m */,
-				CB68BC62BD0752DE90DECAD893BCA836 /* UIViewController+JRKit.h */,
-				DFFE8BED4A782FFBC40AF1BB08D9CD75 /* UIViewController+JRKit.m */,
-				3D9EF5B22A8A989400902FB4 /* UITextField+JRKit.h */,
-				3D9EF5B32A8A989400902FB4 /* UITextField+JRKit.m */,
+				41FDACB48F07FB630643333A0ECA1396 /* JayRKit.bundle */,
+				E6034647FC070B228E32537391024EBB /* JayRKit.framework */,
+				E046F25C824EF3516742847485FB8EA1 /* Pods_JayRKit_Example.framework */,
+				05476509E6541D3A893315DA9B587A3D /* Pods_JayRKit_Tests.framework */,
 			);
-			path = UIKit;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9B8A04F14D0AC0F468BC4E1201D4298E /* Targets Support Files */ = {
@@ -301,31 +319,42 @@
 			path = "Target Support Files/Pods-JayRKit_Example";
 			sourceTree = "<group>";
 		};
-		9DB3F0CC7901AC986862CCB26984B2C9 /* JRVerifyCodeInputView */ = {
+		AFBF55790D2AE18316812E082EBED499 /* JRCategory */ = {
 			isa = PBXGroup;
 			children = (
-				5D5565F7031CD1CC85E66CBBAD3B0EFC /* JRFillVerifyCodeView.h */,
-				25E63FCA7461852431933F8AD15ACF67 /* JRFillVerifyCodeView.m */,
-				1684B0F6195434F53E5CFD2D02F2939B /* JRVerifyCodeInputView.h */,
-				5D9249C8AFDAAE8F2CD682EF6A410A79 /* JRVerifyCodeInputView.m */,
-			);
-			path = JRVerifyCodeInputView;
-			sourceTree = "<group>";
-		};
-		A3E414CEA4B5ED319765147A6A3A3D43 /* JRCategory */ = {
-			isa = PBXGroup;
-			children = (
-				484E61865626B83EFB5271D39DDA6CE1 /* Foundation */,
-				9AAF8528F7413CA103870C1E86D78F6B /* UIKit */,
+				228E6EA3351EFBB3BA8DADA7E8DF539C /* Foundation */,
+				101796F90EEDAD03F038F5279F6EE2CE /* UIKit */,
 			);
 			name = JRCategory;
 			path = JayRKit/Classes/JRCategory;
 			sourceTree = "<group>";
 		};
+		BDD9A1B09CD0700296D1158F82CCF41B /* JRView */ = {
+			isa = PBXGroup;
+			children = (
+				C845976DE36E654EF6567527FF8F1E16 /* JRVerifyCodeInputView */,
+			);
+			name = JRView;
+			path = JayRKit/Classes/JRView;
+			sourceTree = "<group>";
+		};
+		C845976DE36E654EF6567527FF8F1E16 /* JRVerifyCodeInputView */ = {
+			isa = PBXGroup;
+			children = (
+				EC6B2D3C26C41A95BC43A6064B5FB7A1 /* Header.h */,
+				5F5741A86FFFD5CEA398151F9995E155 /* JRFillVerifyCodeView.h */,
+				D38648D6F8E7F9FFA9C1B24DECB0CE62 /* JRFillVerifyCodeView.m */,
+				2851488FE32AECC26BDE4B87F4CA3F0F /* JRVerifyCodeInputView.h */,
+				151457F0D680E62A2606DBD1F7842B33 /* JRVerifyCodeInputView.m */,
+			);
+			name = JRVerifyCodeInputView;
+			path = JRVerifyCodeInputView;
+			sourceTree = "<group>";
+		};
 		C8525C7DA0137901034D86D333745268 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43CD5B03692517AACC3D8A4A4ECE4C21 /* JayRKit */,
+				40460939CA8AD713CB617530362E378E /* JayRKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -336,7 +365,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				C8525C7DA0137901034D86D333745268 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0DE22EF83125DDF2C8E0077173E181C6 /* Products */,
+				995BE7C98C0EF52965F7A72EA6D80B77 /* Products */,
 				9B8A04F14D0AC0F468BC4E1201D4298E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -349,96 +378,74 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB1CA747AEC5D16180E133CAB6D325C6 /* JRMacro */ = {
+		EDBA4FA0A384D8DFB80913677DAFD8FA /* JRDebugManager */ = {
 			isa = PBXGroup;
 			children = (
-				51E1AAAAF77B441E5E09DF26B153FCAB /* JRMacro.h */,
-				D444CFF26941DB53C23B1605D35F1642 /* JRPath.h */,
-				3D9EF5B02A8A87BE00902FB4 /* JRDefine.h */,
+				DA2FB37A93E7B953FE20BE4B6A1D0B77 /* JRDebugManager.h */,
+				90A0A95CBDCD804FBCFB50711E231056 /* JRDebugManager.m */,
 			);
-			name = JRMacro;
-			path = JayRKit/Classes/JRMacro;
+			name = JRDebugManager;
+			path = JayRKit/Classes/JRDebugManager;
 			sourceTree = "<group>";
 		};
-		EA3FC2B7A839955B89CAE1A2A18A9E69 /* JRObject */ = {
+		F0473057B2209D5DC4194C7D7CCBC4FC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAE746295B275FA8A2872661F81916AF /* JRModel.h */,
-				D768978262E180383433DA0933B74DDF /* JRModel.m */,
-				D58E61E79AAEF3230623953F749711EF /* JRTarget.h */,
-				96957871F7D78C57F3A7308D8462C190 /* JRTarget.m */,
-			);
-			name = JRObject;
-			path = JayRKit/Classes/JRObject;
-			sourceTree = "<group>";
-		};
-		EDE95B2D8D2F62112A2E1F0F028B0AC8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				94F9880B362E942665D77D3A371C7B56 /* JayRKit.modulemap */,
-				47EFE858454EC569099B08155018460E /* JayRKit-dummy.m */,
-				B4EA3C365216906A5D6E7330807E4253 /* JayRKit-Info.plist */,
-				289B732DBCD79F2000B706DD5C13C31E /* JayRKit-prefix.pch */,
-				0F6BB25CA70F5BB89B6499C1AF448B38 /* JayRKit-umbrella.h */,
-				C14D302DFDEB3EFDD18185A2AA94D3FE /* JayRKit.debug.xcconfig */,
-				384DCAD508D17FEB5AD9DD22E33AC023 /* JayRKit.release.xcconfig */,
-				57956B903BD3955DAA6E73607CAEDF83 /* ResourceBundle-JayRKit-JayRKit-Info.plist */,
+				F3A4C45B1A90251F6E23FCAB7722AEFC /* JayRKit.modulemap */,
+				82800D369E65500F0C11FC8AC4566709 /* JayRKit-dummy.m */,
+				33FC03D32FA7A4FA669E0CC1DFD10AC2 /* JayRKit-Info.plist */,
+				3E3CCA12BDCAC7D2E67518ED7284ABA0 /* JayRKit-prefix.pch */,
+				C242071378EDEDDCECC3928924FD4B18 /* JayRKit-umbrella.h */,
+				3DD89A6DAB3CAC2DEB1A49159FB68F8E /* JayRKit.debug.xcconfig */,
+				875ECEE17E6874D265BF4FAB7F952559 /* JayRKit.release.xcconfig */,
+				8146F7CDFC6361FED1509E50B48EC7F3 /* ResourceBundle-JayRKit-JayRKit-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JayRKit";
 			sourceTree = "<group>";
 		};
-		FCBA1F86DD2C9148DAC3F778D081D0EB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C56B7C69399194792898EB9F5EF225F5 /* JayRKit.podspec */,
-				2F72EA8315164F2AA3FA316B9E5A0C9A /* LICENSE */,
-				ACC229787E3E97605C6E486761A9D62A /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22B534BDD1F165AFED63880917A3209E /* Headers */ = {
+		12813F8A069F5BB771B93F2EDC919100 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99782F9B30DCB275D00CA609BF2C757E /* Pods-JayRKit_Example-umbrella.h in Headers */,
+				2D10DED17353B58A5E93A4D0A911F066 /* Pods-JayRKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA94A828DBECFE6F292D9D7F0BB26120 /* Headers */ = {
+		292F90B951C5AC2C8A19B484C47E7533 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8243629DA7038789AAF997FC5A5840D5 /* Pods-JayRKit_Tests-umbrella.h in Headers */,
+				D80895FE1847A44BD0F81E395B25538A /* Header.h in Headers */,
+				EE93E84EDC36F997920299EFECFDD583 /* JayRKit.h in Headers */,
+				B0D050160C487304A2693B5A0D0141D4 /* JayRKit-umbrella.h in Headers */,
+				1220CE0A6D87946EB0DB3FDE99CB8981 /* JRDebugManager.h in Headers */,
+				BFEAA57A4A269D224D9F0A2C5573977E /* JRDefine.h in Headers */,
+				FF2344B75C2C4D61AE1565322DE02245 /* JRFillVerifyCodeView.h in Headers */,
+				56613DD31C78401864B4BBC2551E2BC1 /* JRMacro.h in Headers */,
+				43DF5A275C46B98E1BD4192DDE5D1923 /* JRModel.h in Headers */,
+				B417AF6BEFDA867080FD354DEAD74FE6 /* JRPath.h in Headers */,
+				DC085C807E8DC09B7810E1B524567DE1 /* JRTarget.h in Headers */,
+				0739BA6C0A6641C54174014ED50A7521 /* JRVerifyCodeInputView.h in Headers */,
+				B96CE267B841390E65F39DBD4B9699E4 /* NSObject+JRKit.h in Headers */,
+				A0BB27945E2BBA3AA7BF6647DCEAB147 /* NSString+JRKit.h in Headers */,
+				07E9742EA41F00E1B916146692677D15 /* UIButton+JRKit.h in Headers */,
+				A788C9FB392E8ABEEECC178269A827EF /* UIControl+JRKit.h in Headers */,
+				4BD80CAB086A06270EEB69D3DEA26A22 /* UITapGestureRecognizer+JRKit.h in Headers */,
+				98448E9DDFE21A58A0B9C691E60B8CB7 /* UITextField+JRKit.h in Headers */,
+				00362E42A3078830D49B6704AB7D8676 /* UIView+JRKit.h in Headers */,
+				2494C9DC82FB07030FDA678FB3332FE4 /* UIViewController+JRKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6530BC8732A189FF8DB7C98D57FEBE4 /* Headers */ = {
+		A03C08179760FA7FEE861318F30EFAF6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E94AB15D692C06E2B61C801447936DBD /* JayRKit.h in Headers */,
-				0FE274570B78644660554DB2A2788DA0 /* JayRKit-umbrella.h in Headers */,
-				CE580807A5FC02C2D79EB9F462003A7C /* JRDebugManager.h in Headers */,
-				A83FDAC26E26E8FF62A6518799F1FCA6 /* JRFillVerifyCodeView.h in Headers */,
-				DBBB3C3AFA630541727FCA4EA9CA5ECE /* JRMacro.h in Headers */,
-				D8785AD3B954C4CA3F7413DBA7207723 /* JRModel.h in Headers */,
-				9DEE66DEAD3CE86C2ECA1AFE32FF1849 /* JRPath.h in Headers */,
-				3D9EF5B42A8A989400902FB4 /* UITextField+JRKit.h in Headers */,
-				00A0E739588AB9E7704836D1982B84B9 /* JRTarget.h in Headers */,
-				A61C5A4B2B3A5C75EDE90A3715414473 /* JRVerifyCodeInputView.h in Headers */,
-				3D9EF5B12A8A87BE00902FB4 /* JRDefine.h in Headers */,
-				7A776CA8B0D59F0A7CF40CA9B3810CAB /* NSObject+JRKit.h in Headers */,
-				844FB2928F2FDF815EB2EE234EB09C17 /* NSString+JRKit.h in Headers */,
-				0E2D3F3FD121F36A527081C119266DD0 /* UIButton+JRKit.h in Headers */,
-				F9C79840FB955BEC0C98A4B5037A7144 /* UIControl+JRKit.h in Headers */,
-				6DC89C92CDE3031B7A201FE1A594CA6B /* UITapGestureRecognizer+JRKit.h in Headers */,
-				FDC6AF2843EEA70B5604F83509BC1C63 /* UIView+JRKit.h in Headers */,
-				CEF8B49191597C104E8912827E9C2C45 /* UIViewController+JRKit.h in Headers */,
+				A70A26AB3C694DB08AA476224C29332D /* Pods-JayRKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,76 +454,76 @@
 /* Begin PBXNativeTarget section */
 		14AD3B5468FB3E93C3A91F3F44243903 /* Pods-JayRKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2C463A47AB194507449AEFB4E26F2D1 /* Build configuration list for PBXNativeTarget "Pods-JayRKit_Example" */;
+			buildConfigurationList = 20250DCFD970C1A7E8CFA3CA0C0D8921 /* Build configuration list for PBXNativeTarget "Pods-JayRKit_Example" */;
 			buildPhases = (
-				22B534BDD1F165AFED63880917A3209E /* Headers */,
-				510A2612E4374AA81E1FE6463C260CB1 /* Sources */,
-				19A533A9B1AAAEB7A1D1EC3E8BAB156B /* Frameworks */,
-				DA027BCD715AA823C2AC98D08A167571 /* Resources */,
+				A03C08179760FA7FEE861318F30EFAF6 /* Headers */,
+				60F5C038F2CCDE0C42B4EC1DAA355D71 /* Sources */,
+				D7FCCFD5E474A5AA4A0DBCC893EA4C4B /* Frameworks */,
+				B6FDDFE2CC9379390634CE051C6F6931 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				47031D36509302107B76782EE8EED0F0 /* PBXTargetDependency */,
+				AE3247CCF27EB51490584FE64E507297 /* PBXTargetDependency */,
 			);
 			name = "Pods-JayRKit_Example";
-			productName = Pods_JayRKit_Example;
-			productReference = E046F25C824EF3516742847485FB8EA1 /* Pods-JayRKit_Example */;
+			productName = "Pods-JayRKit_Example";
+			productReference = E046F25C824EF3516742847485FB8EA1 /* Pods_JayRKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1683B649ECF78B9847CF1BC5F7A63AD9 /* JayRKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C02C530C09E65306414439295EECF82 /* Build configuration list for PBXNativeTarget "JayRKit" */;
+			buildConfigurationList = DFCC45D7F96E4A37E0DC5B76988F0783 /* Build configuration list for PBXNativeTarget "JayRKit" */;
 			buildPhases = (
-				C6530BC8732A189FF8DB7C98D57FEBE4 /* Headers */,
-				1C7371BCFB4967F14B6B8FECB8A00BA1 /* Sources */,
-				EEEBFB0AC4A2C7F64DAFCDE52CCC1013 /* Frameworks */,
-				9D060DB1EC6ACDBAFEBFF729B1244C57 /* Resources */,
+				292F90B951C5AC2C8A19B484C47E7533 /* Headers */,
+				557424FE5A9F51A714CC7220C18B0CA3 /* Sources */,
+				D18B2231231F41B389EC46E84B50D5A5 /* Frameworks */,
+				FF0368F3A89DA6EB420FF7486224858B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FEDC1BEFD31D38066D5461024A7A4667 /* PBXTargetDependency */,
+				566F31F7763FF1120F01BEE3E0D62B17 /* PBXTargetDependency */,
 			);
 			name = JayRKit;
 			productName = JayRKit;
-			productReference = E6034647FC070B228E32537391024EBB /* JayRKit */;
+			productReference = E6034647FC070B228E32537391024EBB /* JayRKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		83D89770B600EC3E7468C25BC08FBF85 /* JayRKit-JayRKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0ADB24BBB30DE027E8761BC6B6522FE /* Build configuration list for PBXNativeTarget "JayRKit-JayRKit" */;
+			buildConfigurationList = 6F20FD9074E38F92681F9E92FAD7C23B /* Build configuration list for PBXNativeTarget "JayRKit-JayRKit" */;
 			buildPhases = (
-				E000CC119C403ACE89F9DA6574E3083E /* Sources */,
-				39E853E74F7A59CD120874C0C728551B /* Frameworks */,
-				333B30CAF82C658730D8FE60CAEC55BF /* Resources */,
+				34B60D800BAAC00FF5E25EA774A34B38 /* Sources */,
+				2EB9E4F28E7A20DDE7E6604D6755DC39 /* Frameworks */,
+				86BD4629AC2361FE9AB698CBF3CB29E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "JayRKit-JayRKit";
-			productName = JayRKit;
-			productReference = 41FDACB48F07FB630643333A0ECA1396 /* JayRKit-JayRKit */;
+			productName = "JayRKit-JayRKit";
+			productReference = 41FDACB48F07FB630643333A0ECA1396 /* JayRKit.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E78AA08D8A6E58203A63CBFAE8E71292 /* Pods-JayRKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A62842BAEB2F95C620CE33B29531189D /* Build configuration list for PBXNativeTarget "Pods-JayRKit_Tests" */;
+			buildConfigurationList = 567351D19147ADD51B693815A6C81DFE /* Build configuration list for PBXNativeTarget "Pods-JayRKit_Tests" */;
 			buildPhases = (
-				AA94A828DBECFE6F292D9D7F0BB26120 /* Headers */,
-				95BDDF6D218C327215A4D5610FF6F90C /* Sources */,
-				CD41A5533A00702566F49D8FA2D19E01 /* Frameworks */,
-				C013B95C9EACCC481D6232123FE71462 /* Resources */,
+				12813F8A069F5BB771B93F2EDC919100 /* Headers */,
+				EC5A4C759C43CC584CD267C1221E4D94 /* Sources */,
+				0C70AFAF6C11CBF6F1B040ED5663EA26 /* Frameworks */,
+				FCF625D039E9D252CC999AEBDBFC7D53 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				50B9C2E2310AC807DCF0AC2FFC6DA411 /* PBXTargetDependency */,
+				1F3F5ADDFFA8B28E30D3F7DC10F3736E /* PBXTargetDependency */,
 			);
 			name = "Pods-JayRKit_Tests";
-			productName = Pods_JayRKit_Tests;
-			productReference = 05476509E6541D3A893315DA9B587A3D /* Pods-JayRKit_Tests */;
+			productName = "Pods-JayRKit_Tests";
+			productReference = 05476509E6541D3A893315DA9B587A3D /* Pods_JayRKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -525,19 +532,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0DE22EF83125DDF2C8E0077173E181C6 /* Products */;
+			productRefGroup = 995BE7C98C0EF52965F7A72EA6D80B77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -550,111 +557,110 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		333B30CAF82C658730D8FE60CAEC55BF /* Resources */ = {
+		86BD4629AC2361FE9AB698CBF3CB29E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D060DB1EC6ACDBAFEBFF729B1244C57 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				47D5C2C0DB509B4C6198ACBB9FC8D263 /* JayRKit-JayRKit in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C013B95C9EACCC481D6232123FE71462 /* Resources */ = {
+		B6FDDFE2CC9379390634CE051C6F6931 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA027BCD715AA823C2AC98D08A167571 /* Resources */ = {
+		FCF625D039E9D252CC999AEBDBFC7D53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0368F3A89DA6EB420FF7486224858B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1428EC822460E6C6F1E2E756CA2B31 /* JayRKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C7371BCFB4967F14B6B8FECB8A00BA1 /* Sources */ = {
+		34B60D800BAAC00FF5E25EA774A34B38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				094DCD352CDFCB3FCEB1E18E642631B4 /* JayRKit-dummy.m in Sources */,
-				F0840B3CA1DD4B17E894CF381DF18176 /* JRDebugManager.m in Sources */,
-				3D9EF5B52A8A989400902FB4 /* UITextField+JRKit.m in Sources */,
-				7BBE49A178051D3A4EF1472B480F0484 /* JRFillVerifyCodeView.m in Sources */,
-				26586DDEAB848DC24DBFC64C0AD935D3 /* JRModel.m in Sources */,
-				984DC405B8D86510CAE0FA322E64B270 /* JRTarget.m in Sources */,
-				1F969350F5C3D5F6726A10AB950F2B62 /* JRVerifyCodeInputView.m in Sources */,
-				EBC3EF20FE5659256D285169E58F5E82 /* NSObject+JRKit.m in Sources */,
-				0F90A857C1CD1C7AA69BF6809A3A758A /* NSString+JRKit.m in Sources */,
-				E9732BE8C69F399D8ABABC34BC62A12F /* UIButton+JRKit.m in Sources */,
-				3612CC1C53B305B13A7261983A3ECB6E /* UIControl+JRKit.m in Sources */,
-				3E8B526A244984981EE1B3B693830F71 /* UITapGestureRecognizer+JRKit.m in Sources */,
-				32775684F59ECBEB213BAF07E446B639 /* UIView+JRKit.m in Sources */,
-				6C131CA39FCCA41257AF727C4F4A05EB /* UIViewController+JRKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		510A2612E4374AA81E1FE6463C260CB1 /* Sources */ = {
+		557424FE5A9F51A714CC7220C18B0CA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D2487A212C8D3B449E4CE1C8D130CE /* Pods-JayRKit_Example-dummy.m in Sources */,
+				003037966048972A11F6920325D35B47 /* JayRKit-dummy.m in Sources */,
+				3CA167E7C2AE0641EA3CC2880562F517 /* JRDebugManager.m in Sources */,
+				1AD6770F3A5AD45E02FC226EDA873A51 /* JRFillVerifyCodeView.m in Sources */,
+				258CFA685A859E3F0EE1CD358DB808F9 /* JRModel.m in Sources */,
+				D966019DE59F1674DF4E5A710A48F068 /* JRTarget.m in Sources */,
+				58C87A0D4399781A30977C60569D2DFA /* JRVerifyCodeInputView.m in Sources */,
+				F4FBA934DBF90CC3CF42674EAE659CE2 /* NSObject+JRKit.m in Sources */,
+				0F5E502F000FB99166F2B603C90EEA81 /* NSString+JRKit.m in Sources */,
+				03C6898D0F29B56E8C14E2B99BAE56BB /* UIButton+JRKit.m in Sources */,
+				A44FB888A4F9879222C071B1B73991FF /* UIControl+JRKit.m in Sources */,
+				948641E30B9A5E9F2820EFDECBF0ADDE /* UITapGestureRecognizer+JRKit.m in Sources */,
+				F804041B27BB62DD784278AD7093F191 /* UITextField+JRKit.m in Sources */,
+				8AC86980187588359268F2F1BA38EF25 /* UIView+JRKit.m in Sources */,
+				23D8F01C3BBD8D38B17FC6406696FC26 /* UIViewController+JRKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95BDDF6D218C327215A4D5610FF6F90C /* Sources */ = {
+		60F5C038F2CCDE0C42B4EC1DAA355D71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35348E9EEA540DAEED4269870E27142C /* Pods-JayRKit_Tests-dummy.m in Sources */,
+				0C0F7BD9B6BB5B8E06B59E1C239923AC /* Pods-JayRKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E000CC119C403ACE89F9DA6574E3083E /* Sources */ = {
+		EC5A4C759C43CC584CD267C1221E4D94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D8EE7F39FFD092D63F9B4C79411104 /* Pods-JayRKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		47031D36509302107B76782EE8EED0F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JayRKit;
-			target = 1683B649ECF78B9847CF1BC5F7A63AD9 /* JayRKit */;
-			targetProxy = 1E776CAC2477375F6D974A391E345CA3 /* PBXContainerItemProxy */;
-		};
-		50B9C2E2310AC807DCF0AC2FFC6DA411 /* PBXTargetDependency */ = {
+		1F3F5ADDFFA8B28E30D3F7DC10F3736E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JayRKit_Example";
 			target = 14AD3B5468FB3E93C3A91F3F44243903 /* Pods-JayRKit_Example */;
-			targetProxy = F7CA4D37244256E2B52B23C4D16F864C /* PBXContainerItemProxy */;
+			targetProxy = CF1A405C6DC91E3FDDCB69CF7683448E /* PBXContainerItemProxy */;
 		};
-		FEDC1BEFD31D38066D5461024A7A4667 /* PBXTargetDependency */ = {
+		566F31F7763FF1120F01BEE3E0D62B17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "JayRKit-JayRKit";
 			target = 83D89770B600EC3E7468C25BC08FBF85 /* JayRKit-JayRKit */;
-			targetProxy = DF58FBD9B9D87A03C792CDE464BC71D9 /* PBXContainerItemProxy */;
+			targetProxy = ABDFA66A85CBC121351782B94D9A7623 /* PBXContainerItemProxy */;
+		};
+		AE3247CCF27EB51490584FE64E507297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JayRKit;
+			target = 1683B649ECF78B9847CF1BC5F7A63AD9 /* JayRKit */;
+			targetProxy = BF95289C480B1FD66A103AE060E184A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12DC253225ABE66785125F1761F92C17 /* Debug */ = {
+		0696560CB17F698FEA95114AEB257C36 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0547F3CA93B386E584CA20EC826CCC4 /* Pods-JayRKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 875ECEE17E6874D265BF4FAB7F952559 /* JayRKit.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -665,53 +671,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JayRKit_Tests/Pods-JayRKit_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JayRKit/JayRKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JayRKit/JayRKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JayRKit_Tests/Pods-JayRKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/JayRKit/JayRKit.modulemap";
+				PRODUCT_MODULE_NAME = JayRKit;
+				PRODUCT_NAME = JayRKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1F946755CD8943B90BB5FA772BAB4C4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F47407028A7F30DF6CBEBC6327C7060E /* Pods-JayRKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -719,9 +690,9 @@
 			};
 			name = Release;
 		};
-		47049B7AB70F031D167C30C0651BD104 /* Debug */ = {
+		1848EC6143EAE82CE863CC2E5F384AA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C14D302DFDEB3EFDD18185A2AA94D3FE /* JayRKit.debug.xcconfig */;
+			baseConfigurationReference = 3DD89A6DAB3CAC2DEB1A49159FB68F8E /* JayRKit.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -751,7 +722,39 @@
 			};
 			name = Debug;
 		};
-		5853831DB3916874ABBF857611FEBDE2 /* Release */ = {
+		337A30A2C0B635D2C7B96BC4DAC1441B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875ECEE17E6874D265BF4FAB7F952559 /* JayRKit.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JayRKit";
+				IBSC_MODULE = JayRKit;
+				INFOPLIST_FILE = "Target Support Files/JayRKit/ResourceBundle-JayRKit-JayRKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = JayRKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4A1815C1EDA76C6B5581CB1FEAE82C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD89A6DAB3CAC2DEB1A49159FB68F8E /* JayRKit.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JayRKit";
+				IBSC_MODULE = JayRKit;
+				INFOPLIST_FILE = "Target Support Files/JayRKit/ResourceBundle-JayRKit-JayRKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = JayRKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		59BBE70A015AC8AA1E5B7859BE885FBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15AE92A562412ADBF4513E86D74715FC /* Pods-JayRKit_Tests.release.xcconfig */;
 			buildSettings = {
@@ -785,57 +788,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6EF5AC0481B10247102C52AAC8945F99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384DCAD508D17FEB5AD9DD22E33AC023 /* JayRKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JayRKit";
-				IBSC_MODULE = JayRKit;
-				INFOPLIST_FILE = "Target Support Files/JayRKit/ResourceBundle-JayRKit-JayRKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = JayRKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		86E0CB65F758C48F71A1DCB0AAA11C76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 503FE8BC4A7EE771C418C94F70A94BA7 /* Pods-JayRKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -892,26 +844,44 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		AAAFFB498F04592BEF3AB6CF3F9780F7 /* Debug */ = {
+		A6AB191F762DBEFB317D52A186CBCECB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C14D302DFDEB3EFDD18185A2AA94D3FE /* JayRKit.debug.xcconfig */;
+			baseConfigurationReference = 503FE8BC4A7EE771C418C94F70A94BA7 /* Pods-JayRKit_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JayRKit";
-				IBSC_MODULE = JayRKit;
-				INFOPLIST_FILE = "Target Support Files/JayRKit/ResourceBundle-JayRKit-JayRKit-Info.plist";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = JayRKit;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -981,10 +951,11 @@
 			};
 			name = Debug;
 		};
-		D2D6C5A2D1A74C55C5C97A10C6ECF1C5 /* Release */ = {
+		C14AA01D8809744175D50A381D4F1E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384DCAD508D17FEB5AD9DD22E33AC023 /* JayRKit.release.xcconfig */;
+			baseConfigurationReference = C0547F3CA93B386E584CA20EC826CCC4 /* Pods-JayRKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -995,18 +966,53 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JayRKit/JayRKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JayRKit/JayRKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-JayRKit_Tests/Pods-JayRKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JayRKit/JayRKit.modulemap";
-				PRODUCT_MODULE_NAME = JayRKit;
-				PRODUCT_NAME = JayRKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JayRKit_Tests/Pods-JayRKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6FAD199D4ED25D01D0EC38FA279DB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47407028A7F30DF6CBEBC6327C7060E /* Pods-JayRKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JayRKit_Example/Pods-JayRKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1017,11 +1023,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C02C530C09E65306414439295EECF82 /* Build configuration list for PBXNativeTarget "JayRKit" */ = {
+		20250DCFD970C1A7E8CFA3CA0C0D8921 /* Build configuration list for PBXNativeTarget "Pods-JayRKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47049B7AB70F031D167C30C0651BD104 /* Debug */,
-				D2D6C5A2D1A74C55C5C97A10C6ECF1C5 /* Release */,
+				A6AB191F762DBEFB317D52A186CBCECB /* Debug */,
+				F6FAD199D4ED25D01D0EC38FA279DB97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1035,29 +1041,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0ADB24BBB30DE027E8761BC6B6522FE /* Build configuration list for PBXNativeTarget "JayRKit-JayRKit" */ = {
+		567351D19147ADD51B693815A6C81DFE /* Build configuration list for PBXNativeTarget "Pods-JayRKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAAFFB498F04592BEF3AB6CF3F9780F7 /* Debug */,
-				6EF5AC0481B10247102C52AAC8945F99 /* Release */,
+				C14AA01D8809744175D50A381D4F1E44 /* Debug */,
+				59BBE70A015AC8AA1E5B7859BE885FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A62842BAEB2F95C620CE33B29531189D /* Build configuration list for PBXNativeTarget "Pods-JayRKit_Tests" */ = {
+		6F20FD9074E38F92681F9E92FAD7C23B /* Build configuration list for PBXNativeTarget "JayRKit-JayRKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12DC253225ABE66785125F1761F92C17 /* Debug */,
-				5853831DB3916874ABBF857611FEBDE2 /* Release */,
+				4A1815C1EDA76C6B5581CB1FEAE82C9D /* Debug */,
+				337A30A2C0B635D2C7B96BC4DAC1441B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2C463A47AB194507449AEFB4E26F2D1 /* Build configuration list for PBXNativeTarget "Pods-JayRKit_Example" */ = {
+		DFCC45D7F96E4A37E0DC5B76988F0783 /* Build configuration list for PBXNativeTarget "JayRKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86E0CB65F758C48F71A1DCB0AAA11C76 /* Debug */,
-				1F946755CD8943B90BB5FA772BAB4C4A /* Release */,
+				1848EC6143EAE82CE863CC2E5F384AA9 /* Debug */,
+				0696560CB17F698FEA95114AEB257C36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
