@@ -52,5 +52,19 @@ static inline CGPathRef JRCircle(CGSize size,CGFloat radius){
     CGPathRelease(path);
 }
 
+/** generate a line path with width and height
+ *  @param height the height for container
+ *  @param size the size for line
+ */
+static inline CGPathRef JRLine(CGFloat height,CGSize size){
+    CGMutablePathRef path = CGPathCreateMutable();
+    CGRect bounds = CGRectMake(0,height-size.height,size.width,size.height);
+    CGPathAddRect(path, NULL, bounds);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextAddPath(context, path);
+    return path;
+    CGPathRelease(path);
+}
+
 
 #endif /* JRPath_h */

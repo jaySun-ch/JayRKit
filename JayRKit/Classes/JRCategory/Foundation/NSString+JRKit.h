@@ -12,7 +12,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (JRKit)
 
-- (void)compareString:(NSString *)string;
+/// 模糊匹配
+- (NSRange)searchStrDim:(NSString *)str;
+
+/// 从头部匹配
+- (NSRange)searchFromStart:(NSString *)str;
+
+/// 从尾部匹配
+- (NSRange)searchFromEnd:(NSString *)str;
+
+/// 利用uncode编码进行比较
+- (NSRange)searchWithUncode:(NSString *)str;
 
 @end
 

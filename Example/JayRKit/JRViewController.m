@@ -7,16 +7,18 @@
 //
 
 #import "JRViewController.h"
-#import "JayRKit.h"
-
-// 这是一个创建新类的宏定义
-JRCreateModel(JRHomeConfig,
-                 JRCreatePropertyWithArgs(strong,NSDictionary* ,moduleA);
-                 JRCreatePropertyWithArgs(strong,NSString *,moduleB);
-                );
+#import "JRDetialViewControllerGroup.h"
 
 
-@interface JRViewController ()
+#define PushVC(_type_) \
+_type_ *vc = [_type_ new];\
+[self.navigationController pushViewController:vc animated:YES];
+
+@interface JRViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+@property (nonatomic,strong) UITableView *tableView;
+
+@property (nonatomic,strong) NSArray *tableTitle;
 
 @end
 
@@ -26,72 +28,48 @@ JRCreateModel(JRHomeConfig,
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    JRFillVerifyCodeView *codeView = [[JRFillVerifyCodeView alloc] initWithCodeNumberLength:6 style:JRVerifyCodeInputCircle];
-    codeView.origin = CGPointMake(0,100);
-    [self addSubView:codeView];
+    [self addSubView:self.tableView];
+    self.tableTitle = @[@"输入验证码样式",@"下拉输入框样式"];
 }
 
 - (void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];
 }
 
+JRCreateLazyLoad(UITableView *,tableView,^{
+    self.tableView = [[UITableView alloc] initWithFrame:self.bounds];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+});
 
-
-
-- (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString
-{
-    if (jsonString == nil) {
-        return nil;
-    }
-    NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
-    NSError *err;
-    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&err];
-    if (err) {
-        NSLog(@"json解析失败：%@",err);
-        return nil;
-    }
-    return dic;
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.tableTitle.count;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if(indexPath.row == 0){
+        PushVC(JRVerifyCodeInputViewController);
+    }else if(indexPath.row  == 1){
+        PushVC(JRDropTextFieldViewController);
+    }
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if(!cell){
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    cell.textLabel.text = self.tableTitle[indexPath.row];
+    return cell;
+}
+
 
 
 @end
 
-//
-//NSDictionary *dict = @{
-//    @"NSString":@"name",
-//    @"NSInteger":@"age",
-//    @"NSArray":@"bad"
-//};
-//
-//Class klass = [self class];
-//for (NSString *typeString in dict.allKeys) {
-//  NSString *propertyName = dict[typeString];
-//  const char *typeEncoding = [typeString UTF8String];
-//  objc_property_attribute_t type = {typeEncoding, "@"};
-//  class_addProperty(klass, propertyName.UTF8String,&type,1);
-//  NSString *getterSelName = [NSString stringWithFormat:@"_%@", propertyName];
-//  SEL getterSel = NSSelectorFromString(getterSelName);
-//  NSString *setterSelName = [NSString stringWithFormat:@"set%@:", [propertyName capitalizedString]];
-//  SEL setterSel = NSSelectorFromString(setterSelName);
-//  IMP getterImp = imp_implementationWithBlock(^(id self) {
-//     return self;
-//  });
-// IMP setterImp = imp_implementationWithBlock(^(id self, id newValue) {
-//     self = newValue;
-//  });
-//  class_addMethod(klass, getterSel, getterImp, "@@:");
-//  class_addMethod(klass, setterSel, setterImp, "v@:@");
-//};
-//
-//NSString *path = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"json"];
-//// 将文件数据化
-//NSError * error=nil;
-//NSString *jsonString = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
-////josn字符串转字典
-//NSDictionary *testDic = [self dictionaryWithJsonString:jsonString];
-//UIButton *testButton = [[UIButton alloc] initWithAction:^(JRTarget * _Nonnull sender) {
-//    NSLog(@"good");
-//} event:UIControlEventTouchUpInside];
-//testButton.frame = CGRectMake(100,100,100,100);
-//[testButton setTitle:@"hello" forState:UIControlStateNormal];
-//[self addSubView:testButton];
+

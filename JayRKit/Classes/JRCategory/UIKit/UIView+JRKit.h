@@ -39,11 +39,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+typedef struct JRShadowSetting{
+    CGFloat shadowOpacity;
+    CGFloat shadowRadius;
+    CGSize shadowOffset;
+    UIColor *shadowColor;
+}JRShadowSetting;
+
 @interface UIView (JRMethodExtension)
 
 - (void)removeAllSubViews;
 
 - (void)makeCenter;
+
+- (void)removeAllAnimation;
+
+- (void)addShadowViewWithCornerRadius:(CGFloat)cornerRadius
+                        shadowSetting:(JRShadowSetting)setting;
 
 @end
 

@@ -9,13 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
-
 @interface JRViewController : UIViewController
 
-@property (nonatomic,copy) NSString *classss;
-
-@property (nonatomic,strong) NSDictionary<NSString*,NSString*> *array;
-
-@property (nonatomic,assign) CGFloat floatsds;
 
 @end

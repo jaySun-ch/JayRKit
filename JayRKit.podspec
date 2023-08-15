@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JayRKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A Fully Function with iOS platform which will help you create APP'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,15 @@ Pod::Spec.new do |s|
     
   s.source_files = 'JayRKit/Classes/**/*'
 
+  
+#  s.resource_bundles = {
+#    'JayRKit' => ['JayRKit/Assets/*.png']
+#  }
+  # s.resource_bundles = {
+  #  'JayRKit' => ['JayRKit/Assets/*.png']
+  # }
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'Masonry', '~> 1.1.0'
 end

@@ -11,9 +11,9 @@
 
 @implementation UITextField (JRKit)
 
-JR_DYNAMIC_PROPERTY_CTYPE(maxInputWordLimit,setMaxInputWordLimit,RETAIN,NSUInteger);
+JR_DYNAMIC_PROPERTY_CTYPE_Implementation(maxInputWordLimit,setMaxInputWordLimit,RETAIN,NSUInteger);
 
-JR_DYNAMIC_PROPERTY_OBJECT(maxInputString,setMaxInputString,RETAIN,NSString *);
+JR_DYNAMIC_PROPERTY_CTYPE_Implementation(maxInputString,setMaxInputString,RETAIN,NSString *);
 
 
 - (void)addWordLimit{

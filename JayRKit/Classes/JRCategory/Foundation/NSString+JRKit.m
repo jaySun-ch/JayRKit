@@ -10,6 +10,25 @@
 
 @implementation NSString (JRKit)
 
+- (NSRange)searchStrDim:(NSString *)str{
+    return [self rangeOfString:str options:NSCaseInsensitiveSearch];
+}
+
+- (NSRange)searchFromStart:(NSString *)str{
+    return [self rangeOfString:str options:NSAnchoredSearch];
+}
+
+- (NSRange)searchFromEnd:(NSString *)str{
+    return [self rangeOfString:str options:NSBackwardsSearch];
+}
+
+- (NSRange)searchWithUncode:(NSString *)str{
+    return [self rangeOfString:str options:NSLiteralSearch];
+}
+
+
+
 @end
+
 
 

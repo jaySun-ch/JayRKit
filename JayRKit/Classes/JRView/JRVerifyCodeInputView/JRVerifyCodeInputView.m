@@ -7,9 +7,12 @@
 //
 
 #import "JRVerifyCodeInputView.h"
-#import "JRMacro.h"
 #import "JRPath.h"
 #import "UIView+JRKit.h"
+#import "CALayer+JRKit.h"
+#import "CAPropertyAnimation+JRKit.h"
+
+static NSString *const animateTip = @"fillAnimate";
 
 @interface JRVerifyCodeInputView()
 
@@ -19,6 +22,8 @@
 
 
 @implementation JRVerifyCodeInputView
+
+#pragma mark - life cycle
 
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
@@ -46,13 +51,22 @@
     self.shapeLayer.frame = self.bounds;
     self.numberLabel.frame = self.bounds;
     switch (self.type) {
-        case JRVerifyCodeInputSquare:
+        case JRVerifyCodeInputFillSquare:
             self.shapeLayer.path = JRSqurePath(self.width);
             break;
         case JRVerifyCodeInputLine:
+            self.shapeLayer.path = JRLine(self.height,CGSizeMake(self.width,3));
             break;
-        case JRVerifyCodeInputCircle:
+        case JRVerifyCodeInputFillCircle:
             self.shapeLayer.path = JRCircle(self.size,self.width / 2);
+            break;
+        case JRVerifyCodeInputHollowCircle:
+            self.shapeLayer.path = JRCircle(self.size,self.width / 2);
+            self.shapeLayer.borderWidth = 3;
+            break;
+        case JRVerifyCodeInputHollowSquare:
+            self.shapeLayer.path = JRSqurePath(self.width);
+            self.shapeLayer.borderWidth = 3;
             break;
         default:
             self.shapeLayer.path = JRRectangle(self.size);
@@ -64,25 +78,22 @@
 
 JRCreateLazyLoad(CAShapeLayer*,shapeLayer,^{
     self.shapeLayer = [CAShapeLayer layer];
-    self.shapeLayer.fillColor = [UIColor whiteColor].CGColor;
+    if(self.type == JRVerifyCodeInputHollowCircle || self.type == JRVerifyCodeInputHollowSquare){
+        self.shapeLayer.fillColor = [UIColor clearColor].CGColor;
+    }else{
+        self.shapeLayer.fillColor = self.normalColor.CGColor;
+    }
+
 });
 
 JRCreateLazyLoad(UILabel *,numberLabel,^{
     self.numberLabel = [[UILabel alloc] init];
-    self.numberLabel.textColor = [UIColor whiteColor];
+    self.numberLabel.textColor = self.labelColor;
     self.numberLabel.textAlignment = NSTextAlignmentCenter;
     self.numberLabel.font = [UIFont systemFontOfSize:20.0 weight:UIFontWeightBold];
 });
 
 
-- (void)setCodeInputState{
-    if(self.isFill){
-        self.shapeLayer.fillColor = [UIColor blackColor].CGColor;
-    }else{
-        self.shapeLayer.fillColor = [UIColor whiteColor].CGColor;
-        self.numberLabel.text = @"";
-    }
-}
 
 #pragma mark - KV0
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
@@ -93,6 +104,37 @@ JRCreateLazyLoad(UILabel *,numberLabel,^{
     return [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
 }
 
+- (void)setCodeInputState{
+    
+    if(self.isFill){
+        if(self.type == JRVerifyCodeInputHollowCircle || self.type == JRVerifyCodeInputHollowSquare){
+            self.shapeLayer.borderColor = self.fillColor.CGColor;
+        }else{
+            self.shapeLayer.fillColor = self.fillColor.CGColor;
+        }
+    }else{
+        if(self.type == JRVerifyCodeInputHollowCircle || self.type == JRVerifyCodeInputHollowSquare){
+            self.shapeLayer.borderColor = self.normalColor.CGColor;
+        }else{
+            self.shapeLayer.fillColor = self.normalColor.CGColor;
+        }
+        self.numberLabel.text = @"";
+    }
+}
+
+#pragma mark - animate
+
+- (void)showFillAnimate{
+    [UIView animateWithDuration:0.4f animations:^{
+        self.transform = CGAffineTransformMakeScale(1.2,1.2);
+    }];
+}
+
+- (void)dismissFillAnimate{
+    [UIView animateWithDuration:0.4f animations:^{
+        self.transform = CGAffineTransformMakeScale(1.0,1.0);
+    }];
+}
 
 
 @end

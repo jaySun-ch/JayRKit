@@ -142,23 +142,30 @@
     self.center = self.superview.center;
 }
 
-+ (void)load{
-    [super load];
-    NSLog(@"View has Load");
-}
 
-- (void)layoutSubviews{
-    NSLog(@"----layoutSubviews 被调用-----");
-}
-
-- (void)layoutIfNeeded{
-    NSLog(@"----layoutIfNeeded 被调用-----");
-}
-
-- (void)setNeedsLayout{
-    NSLog(@"---setNeedsLayout 被调用 -----");
+- (void)removeAllAnimation{
+    for(UIView *subview in self.subviews){
+        [subview.layer removeAllAnimations];
+        [subview removeAllAnimation];
+    }
 }
 
 
+- (void)addShadowViewWithCornerRadius:(CGFloat)cornerRadius
+                        shadowSetting:(JRShadowSetting)setting{
+    UIView *continaerView = [[UIView alloc] initWithFrame:self.frame];
+    continaerView.backgroundColor = [UIColor clearColor];
+    [self.superview addSubview:continaerView];
+    [self removeFromSuperview];
+    [continaerView addSubview:self];
+    self.frame = continaerView.bounds;
+    self.layer.cornerRadius = cornerRadius;
+    self.clipsToBounds = YES;
+    continaerView.layer.shadowRadius = setting.shadowRadius;
+    continaerView.layer.shadowOpacity = setting.shadowOpacity;
+    continaerView.layer.shadowOffset = setting.shadowOffset;
+    continaerView.layer.shadowRadius = setting.shadowRadius;
+    continaerView.clipsToBounds = NO;
+}
 
 @end

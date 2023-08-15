@@ -1,169 +1,72 @@
 {
-    "default": {
-        "entryLocales": {
-            "ko_KR": {
-                "list": [
-                    "kakao",
-                    "naver",
-                    "apple",
-                    "email",
-                    "google",
-                    "phone",
-                    "facebook",
-                    "wechat"
-                ],
-                "count": 4
-            },
-            "zh_HK": {
-                "list": [
-                    "email",
-                    "apple",
-                    "wechat",
-                    "facebook",
-                    "google",
-                    "phone"
-                ],
-                "count": 4
-            },
-            "ja_JP": {
-                "list": [
-                    "email",
-                    "line",
-                    "apple",
-                    "facebook",
-                    "google",
-                    "wechat",
-                    "phone"
-                ],
-                "count": 4
-            },
-            "th_TH": {
-                "list": [
-                    "facebook",
-                    "line",
-                    "apple",
-                    "email",
-                    "google",
-                    "phone",
-                    "wechat"
-                ],
-                "count": 4
-            },
-            "en_TH": {
-                "list": [
-                    "facebook",
-                    "line",
-                    "apple",
-                    "email",
-                    "google",
-                    "phone",
-                    "wechat"
-                ],
-                "count": 4
-            },
-            "zh_TW": {
-                "list": [
-                    "email",
-                    "facebook",
-                    "line",
-                    "apple",
-                    "google",
-                    "wechat",
-                    "phone"
-                ],
-                "count": 4
-            },
-            "default": {
-                "list": [
-                    "email",
-                    "apple",
-                    "google",
-                    "facebook"
-                ],
-                "count": 4
-            },
-            "ru_RU": {
-                "list": [
-                    "email",
-                    "apple",
-                    "google",
-                    "wechat",
-                    "phone",
-                    "facebook"
-                ],
-                "count": 4
-            },
-            "ar_XX": {
-                "list": [
-                    "kakao",
-                    "naver",
-                    "apple",
-                    "email",
-                    "google",
-                    "phone",
-                    "facebook"
-                ],
-                "count": 3
-            }
-        },
-        "header": {
-            "darkImgUrl": "https://ak-d.tripcdn.com/images/1qy0112000b93ppwt2B88.png",
-            "lightImgUrl": "https://ak-d.tripcdn.com/images/1qy2212000b93prp36776.png",
-            "isShowLogo": true,
-            "isNavBarWhite": false,
-            "isShowUSP": true
-        }
-    },
-    "moduleB": {
-        "entryLocales": {
-            "ko_KR": {
-                "list": [
-                    "kakao",
-                    "naver",
-                    "apple",
-                    "email",
-                    "google",
-                    "phone",
-                    "facebook",
-                    "wechat"
-                ],
-                "count": 4
-            },
-            "zh_HK": {
-                "list": [
-                    "email",
-                    "apple",
-                    "wechat",
-                    "facebook",
-                    "google",
-                    "phone"
-                ],
-                "count": 4
-            },
-            "ja_JP": {
-                "list": [
-                    "email",
-                    "line",
-                    "apple",
-                    "facebook"
-                ],
-                "count": 4
-            },
-            "default": {
-                "list": [
-                    "email",
-                    "apple",
-                    "google"
-                ],
-                "count": 2
-            }
-        },
-        "header": {
-            "darkImgUrl": "https://ak-d.tripcdn.com/images/1qy0112000b93ppwt2B88.png",
-            "lightImgUrl": "https://ak-d.tripcdn.com/images/1qy2212000b93prp36776.png",
-            "isShowLogo": true,
-            "isNavBarWhite": false,
-            "isShowUSP": true
-        }
-    }
+    "1":[
+        "kakao",
+        "kaaca",
+        "kaabc",
+        "kkkac",
+        "aaakk",
+        "kaabk",
+        "kkcck",
+        "kaabckk"
+    ],
+    "2":[
+        "kakao",
+        "kaaca",
+        "kaabc",
+        "kkkac",
+        "aaakk",
+        "kaabk",
+        "kkcck",
+        "kaabckk"
+    ],
+    "3":[
+        "kakao",
+        "kaaca",
+        "kaabc",
+        "kkkac",
+        "aaakk",
+        "kaabk",
+        "kkcck",
+        "kaabckk"
+    ],
+    "4":[
+        "kakao",
+        "kaaca",
+        "kaabc",
+        "kkkac",
+        "aaakk",
+        "kaabk",
+        "kkcck",
+        "kaabckk"
+    ],
+    "5":[
+        "kakao",
+        "kaaca",
+        "kaabc",
+        "kkkac",
+        "aaakk",
+        "kaabk",
+        "kkcck",
+        "kaabckk"
+    ],
+    "6":[
+        "kakao",
+        "kaaca",
+        "kaabc",
+        "kkkac",
+        "aaakk",
+        "kaabk",
+        "kkcck",
+        "kaabckk"
+    ],
+    "7":[
+        "kakao",
+        "kaaca",
+        "kaabc",
+        "kkkac",
+        "aaakk",
+        "kaabk",
+        "kkcck",
+        "kaabckk"
+    ]
 }

@@ -34,17 +34,9 @@ __typeof__(_a_) _tmp_ = (_a_); \
 } while (0)
 #endif
 
-#ifndef JR_DUMMY_CLASS
-#define JR_DUMMY_CLASS(_name_,_type_) \
-@interface JR_DUMMY_CLASS_ ## _name_ : _type_ \
-@end \
-@implementation JR_DUMMY_CLASS_ ## _name_ : _type_ \
-@end
 
-#endif
-
-#ifndef JR_DYNAMIC_PROPERTY_OBJECT
-#define JR_DYNAMIC_PROPERTY_OBJECT(_getter_, _setter_, _association_, _type_) \
+#ifndef JR_DYNAMIC_PROPERTY_OBJECT_Implementation
+#define JR_DYNAMIC_PROPERTY_OBJECT_Implementation(_getter_, _setter_, _association_, _type_) \
 - (void)_setter_ : (_type_) object{ \
     [self willChangeValueForKey:@#_getter_];\
     objc_setAssociatedObject(self,_cmd,object,OBJC_ASSOCIATION_ ## _association_);\
@@ -55,8 +47,8 @@ __typeof__(_a_) _tmp_ = (_a_); \
 }
 #endif
 
-#ifndef JR_DYNAMIC_PROPERTY_CTYPE
-#define JR_DYNAMIC_PROPERTY_CTYPE(_getter_, _setter_,_association_, _type_)\
+#ifndef JR_DYNAMIC_PROPERTY_CTYPE_Implementation
+#define JR_DYNAMIC_PROPERTY_CTYPE_Implementation(_getter_, _setter_,_association_, _type_)\
 - (void)_setter_ : (_type_)object{ \
     [self willChangeValueForKey:@#_getter_]; \
     NSValue *value = [NSValue value:&object withObjCType:@encode(_type_)]; \
@@ -71,22 +63,37 @@ __typeof__(_a_) _tmp_ = (_a_); \
 }
 #endif
 
-#ifndef JRCreateModel
-#define JRCreateModel(_name_,...) \
-@interface  _name_ : JRModel \
+#ifndef JR_PROPERTY_Interface
+#define JR_PROPERTY_Interface(getter,setter,type) \
+- (void)setter:(type)object; \
+- (type)getter;
+#endif
+
+#ifndef JRCreateClassInterface
+#define JRCreateClassInterface(_name_,_class_,...) \
+@interface  _name_ : _class_ \
 __VA_ARGS__\
-@end\
-@implementation _name_ : JRModel \
 @end
 #endif
+
+#ifndef JRCreateClassImplementation
+#define JRCreateClassImplementation(_name_,...) \
+@implementation  _name_ \
+__VA_ARGS__\
+@end
+#endif
+
+#ifndef JRCreateModel
+#define JRCreateModel(_name_,...) \
+JRCreateClassInterface(_name_,JRModel,__VA_ARGS__)\
+JRCreateClassImplementation(_name_);
+#endif
+
 
 #ifndef JRCreatePropertyWithArgs
 #define JRCreatePropertyWithArgs(propertyType,type,property_name) @property(nonatomic,propertyType) type property_name;
 #endif
 
-#ifndef JRCreateModelByJsonFile
-#define JRCreateModelByJsonFile(_jsonDict_)
-#endif
 
 #ifndef weakify
     #if DEBUG
@@ -132,10 +139,12 @@ __VA_ARGS__\
 #endif
 
 
+
+
+
 static inline dispatch_time_t dispatch_time_delay(NSTimeInterval second){
     return dispatch_time(DISPATCH_WALLTIME_NOW,(int64_t)(second * NSEC_PER_SEC));
 }
-
 
 
 

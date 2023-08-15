@@ -10,19 +10,24 @@
 #endif
 #endif
 
-#import "JayRKit.h"
+#import "CAPropertyAnimation+JRKit.h"
 #import "NSObject+JRKit.h"
 #import "NSString+JRKit.h"
+#import "CALayer+JRKit.h"
 #import "UIButton+JRKit.h"
 #import "UIControl+JRKit.h"
 #import "UITapGestureRecognizer+JRKit.h"
+#import "UITextField+JRKit.h"
 #import "UIView+JRKit.h"
 #import "UIViewController+JRKit.h"
 #import "JRDebugManager.h"
+#import "JRDefine.h"
 #import "JRMacro.h"
 #import "JRPath.h"
 #import "JRModel.h"
 #import "JRTarget.h"
+#import "JRDropTextField.h"
+#import "JRDropViewTableCell.h"
 #import "JRFillVerifyCodeView.h"
 #import "JRVerifyCodeInputView.h"
 

@@ -49,6 +49,9 @@
         CGFloat width = (size.width - padding * (length + 1)) / length;
         for(int i = 0; i < length; i++){
             JRVerifyCodeInputView *view = [[JRVerifyCodeInputView alloc] initWithFrame:CGRectMake(x,0,width,size.height)];
+            view.normalColor = [UIColor grayColor];
+            view.fillColor = [UIColor redColor];
+            view.labelColor = [UIColor whiteColor];
             view.tag = (i+1) << 10;
             view.type = style;
             x += width;
@@ -56,8 +59,11 @@
             [self addSubview:view];
             UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initTapAction:^(JRTarget * _Nonnull sender) {
                 if(!self.textFiled.isFirstResponder){
+                    JRVerifyCodeInputView *view = (JRVerifyCodeInputView *)[self viewWithTag:((self.currentLength + 1) << 10)];
+                    [view showFillAnimate];
                     [self.textFiled becomeFirstResponder];
                 }else{
+                    [self stopEdit];
                     [self.textFiled resignFirstResponder];
                 }
             }];
@@ -83,6 +89,7 @@ JRCreateLazyLoad(UITextField *,textFiled, ^{
 #pragma mark - textFiledDelegate
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [self stopEdit];
     [textField resignFirstResponder];
     return YES;
 }
@@ -90,17 +97,42 @@ JRCreateLazyLoad(UITextField *,textFiled, ^{
 - (void)textFieldDidChangeSelection:(UITextField *)textField{
     NSUInteger textlength = textField.text.length;
     if(textlength <= self.length && textlength >= 0){
+        JRVerifyCodeInputView *currentView = (JRVerifyCodeInputView *)[self viewWithTag:((self.currentLength + 1) << 10)];
         if(self.currentLength < textlength){
-            JRVerifyCodeInputView *view = (JRVerifyCodeInputView *)[self viewWithTag:((self.currentLength + 1) << 10)];
-            view.numberLabel.text = [textField.text substringWithRange:NSMakeRange(self.currentLength,1)];
-            view.isFill = YES;
+            currentView.numberLabel.text = [textField.text substringWithRange:NSMakeRange(self.currentLength,1)];
+            currentView.isFill = YES;
         }else{
-            JRVerifyCodeInputView *view = (JRVerifyCodeInputView *)[self viewWithTag:((textlength+1) << 10)];
-            view.isFill = NO;
+            currentView = (JRVerifyCodeInputView *)[self viewWithTag:((textlength + 1) << 10)];
+            currentView.isFill = NO;
         }
         self.currentLength = textlength;
+        [self onlyShowFillAnimateWithIndex:self.currentLength];
+    }
+    if(textlength >= self.length){
+        if(_delegate){
+            [_delegate didFinishFillVerifyCode:self.textFiled.maxInputString];
+        }
     }
 }
+
+- (void)stopEdit{
+    for(int i = 0; i < self.length; i++){
+        JRVerifyCodeInputView *view = (JRVerifyCodeInputView *)[self viewWithTag:((i + 1) << 10)];
+        [view dismissFillAnimate];
+    }
+}
+
+- (void)onlyShowFillAnimateWithIndex:(NSInteger)index{
+    for(int i = 0; i < self.length; i++){
+        JRVerifyCodeInputView *view = (JRVerifyCodeInputView *)[self viewWithTag:((i + 1) << 10)];
+        if(i == index){
+            [view showFillAnimate];
+        }else{
+            [view dismissFillAnimate];
+        }
+    }
+}
+
 
 
 
