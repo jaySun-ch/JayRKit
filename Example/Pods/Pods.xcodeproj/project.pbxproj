@@ -33,7 +33,6 @@
 		3D70B2962411E013E4ACD4ACCFB46328 /* UIViewController+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9FAC2B9CFD5A0F4B743350981A694E /* UIViewController+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D977BB02A8BDA55001B533E /* JRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D977BAF2A8BDA55001B533E /* JRTextField.m */; };
 		3D977BB22A8BDA5B001B533E /* JRTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D977BB12A8BDA5B001B533E /* JRTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D9EF5B72A8BA9C600902FB4 /* JayRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9EF5B62A8BA9C600902FB4 /* JayRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DF5CD162A8BCCBD006422BA /* NSMutableAttributedString+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF5CD142A8BCCBD006422BA /* NSMutableAttributedString+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DF5CD172A8BCCBD006422BA /* NSMutableAttributedString+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF5CD152A8BCCBD006422BA /* NSMutableAttributedString+JRKit.m */; };
 		3DF5CD1A2A8BCEF0006422BA /* NSAttributedString+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DF5CD182A8BCEF0006422BA /* NSAttributedString+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,10 +57,11 @@
 		753A7EFA509D0128F37AB965AD214F21 /* JRDebugManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E772B8234AFEC33EC35665B86FA735F /* JRDebugManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		755D4E4D989415BA172AF38EB90B4389 /* JRTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E1226F4ECD577215AE7B8DDE8E45BA /* JRTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A18F18AD0AE5629D329705BE7A08E18 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A9EF0362A8CA2AB006C807F /* JRPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EF0352A8CA2AB006C807F /* JRPopViewController.m */; };
-		7A9EF0382A8CA2B0006C807F /* JRPopViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9EF0372A8CA2B0006C807F /* JRPopViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A9EF03B2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9EF0392A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.h */; };
 		7A9EF03C2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EF03A2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m */; };
+		7A9EF0442A8CC0DE006C807F /* JayRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9EF03E2A8CC0DE006C807F /* JayRKit.h */; };
+		7A9EF0452A8CC0DE006C807F /* JRPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EF0422A8CC0DE006C807F /* JRPopViewController.m */; };
+		7A9EF0462A8CC0DE006C807F /* JRPopViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9EF0432A8CC0DE006C807F /* JRPopViewController.h */; };
 		7AC486A017452122A268752B2C1BDC33 /* NSString+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC4892FC54A7D1D0FC4EAAD69E0C313 /* NSString+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D0A59BC664E75ECF2DDE5F69FF69F79 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
 		8243629DA7038789AAF997FC5A5840D5 /* Pods-JayRKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D00BA4CBC869DE9FEEC2E075241E961 /* Pods-JayRKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -160,7 +160,6 @@
 		3D1E5FC72A8BC88E00863C8B /* UILabel+JRKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JRKit.m"; sourceTree = "<group>"; };
 		3D977BAF2A8BDA55001B533E /* JRTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRTextField.m; sourceTree = "<group>"; };
 		3D977BB12A8BDA5B001B533E /* JRTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRTextField.h; sourceTree = "<group>"; };
-		3D9EF5B62A8BA9C600902FB4 /* JayRKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JayRKit.h; sourceTree = "<group>"; };
 		3DF5CD142A8BCCBD006422BA /* NSMutableAttributedString+JRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+JRKit.h"; sourceTree = "<group>"; };
 		3DF5CD152A8BCCBD006422BA /* NSMutableAttributedString+JRKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+JRKit.m"; sourceTree = "<group>"; };
 		3DF5CD182A8BCEF0006422BA /* NSAttributedString+JRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JRKit.h"; sourceTree = "<group>"; };
@@ -192,10 +191,11 @@
 		7386F79CC6A08608A138F5D6C75DD4A1 /* UIViewController+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JRKit.m"; sourceTree = "<group>"; };
 		761D23BB631E52CB0DFD8899E88E7AB3 /* Pods-JayRKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JayRKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		78A2F38CAE7C48F27E378A412C4BB7F2 /* JRMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRMacro.h; sourceTree = "<group>"; };
-		7A9EF0352A8CA2AB006C807F /* JRPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRPopViewController.m; sourceTree = "<group>"; };
-		7A9EF0372A8CA2B0006C807F /* JRPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRPopViewController.h; sourceTree = "<group>"; };
 		7A9EF0392A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizer+JRKit.h"; sourceTree = "<group>"; };
 		7A9EF03A2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIPanGestureRecognizer+JRKit.m"; sourceTree = "<group>"; };
+		7A9EF03E2A8CC0DE006C807F /* JayRKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JayRKit.h; path = JayRKit/Classes/JayRKit.h; sourceTree = "<group>"; };
+		7A9EF0422A8CC0DE006C807F /* JRPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRPopViewController.m; sourceTree = "<group>"; };
+		7A9EF0432A8CC0DE006C807F /* JRPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRPopViewController.h; sourceTree = "<group>"; };
 		81F6B67E59151CD7C2A57D8777429C26 /* JayRKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JayRKit-dummy.m"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		83FF346B4FD54C38BDC24731D53ABA81 /* Pods-JayRKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JayRKit_Example-Info.plist"; sourceTree = "<group>"; };
@@ -438,13 +438,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7A9EF0312A8CA172006C807F /* JRAlertViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = JRAlertViewController;
-			sourceTree = "<group>";
-		};
 		7A9EF0322A8CA178006C807F /* JRBaseView */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,20 +455,28 @@
 			path = JRPopView;
 			sourceTree = "<group>";
 		};
-		7A9EF0342A8CA206006C807F /* JRViewController */ = {
+		7A9EF03F2A8CC0DE006C807F /* JRViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7A9EF03D2A8CBD79006C807F /* JRPopViewController */,
-				7A9EF0312A8CA172006C807F /* JRAlertViewController */,
+				7A9EF0402A8CC0DE006C807F /* JRAlertViewController */,
+				7A9EF0412A8CC0DE006C807F /* JRPopViewController */,
 			);
-			path = JRViewController;
+			name = JRViewController;
+			path = JayRKit/Classes/JRViewController;
 			sourceTree = "<group>";
 		};
-		7A9EF03D2A8CBD79006C807F /* JRPopViewController */ = {
+		7A9EF0402A8CC0DE006C807F /* JRAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7A9EF0372A8CA2B0006C807F /* JRPopViewController.h */,
-				7A9EF0352A8CA2AB006C807F /* JRPopViewController.m */,
+			);
+			path = JRAlertViewController;
+			sourceTree = "<group>";
+		};
+		7A9EF0412A8CC0DE006C807F /* JRPopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EF0422A8CC0DE006C807F /* JRPopViewController.m */,
+				7A9EF0432A8CC0DE006C807F /* JRPopViewController.h */,
 			);
 			path = JRPopViewController;
 			sourceTree = "<group>";
@@ -597,8 +598,8 @@
 		D6D4C8FE492A55B97F7F88D73F84210A /* JayRKit */ = {
 			isa = PBXGroup;
 			children = (
-				3D9EF5B62A8BA9C600902FB4 /* JayRKit.h */,
-				7A9EF0342A8CA206006C807F /* JRViewController */,
+				7A9EF03E2A8CC0DE006C807F /* JayRKit.h */,
+				7A9EF03F2A8CC0DE006C807F /* JRViewController */,
 				26949B9111F79AFE3ED3FAFD961DE471 /* JRCategory */,
 				BDA70ACA48D6DE7FA25FA5C34D208D0F /* JRDebugManager */,
 				1097E378C883AFC80D0AD64931FEF666 /* JRMacro */,
@@ -703,7 +704,6 @@
 				C4FC8067C4B4C9817580A5F3CAD174A9 /* CALayer+JRKit.h in Headers */,
 				3B2CDC37420A910FC6F540A8E260AAA5 /* CAPropertyAnimation+JRKit.h in Headers */,
 				33E1537BDEFE108AA4AD38DBC94919EA /* JayRKit-umbrella.h in Headers */,
-				3D9EF5B72A8BA9C600902FB4 /* JayRKit.h in Headers */,
 				3D1E5FC52A8BC83500863C8B /* JRLabel.h in Headers */,
 				753A7EFA509D0128F37AB965AD214F21 /* JRDebugManager.h in Headers */,
 				2DE5F8151E5D1CB4ED83FC59491708F1 /* JRDefine.h in Headers */,
@@ -721,12 +721,13 @@
 				7AC486A017452122A268752B2C1BDC33 /* NSString+JRKit.h in Headers */,
 				3DF5CD162A8BCCBD006422BA /* NSMutableAttributedString+JRKit.h in Headers */,
 				D9979C625F1AE33B6A2D09024096F0C6 /* UIButton+JRKit.h in Headers */,
+				7A9EF0462A8CC0DE006C807F /* JRPopViewController.h in Headers */,
 				3D1E5FC82A8BC88E00863C8B /* UILabel+JRKit.h in Headers */,
-				7A9EF0382A8CA2B0006C807F /* JRPopViewController.h in Headers */,
 				3D977BB22A8BDA5B001B533E /* JRTextField.h in Headers */,
 				980780124B8282765105C9A622CD3B97 /* UIControl+JRKit.h in Headers */,
 				21A574E4D9A7228A46C05B819BA49FE4 /* UITapGestureRecognizer+JRKit.h in Headers */,
 				335431E58C22E03CBCB8F2BAD899B7C2 /* UITextField+JRKit.h in Headers */,
+				7A9EF0442A8CC0DE006C807F /* JayRKit.h in Headers */,
 				354A6DCC889A5DD19D54189258495116 /* UIView+JRKit.h in Headers */,
 				3D70B2962411E013E4ACD4ACCFB46328 /* UIViewController+JRKit.h in Headers */,
 			);
@@ -896,7 +897,6 @@
 				54A1CF87F25B0E6DBFA29D0F93DE4E83 /* CALayer+JRKit.m in Sources */,
 				67CC9E4457DF59D67B68ED57E4FA6518 /* CAPropertyAnimation+JRKit.m in Sources */,
 				7A9EF03C2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m in Sources */,
-				7A9EF0362A8CA2AB006C807F /* JRPopViewController.m in Sources */,
 				A47239DFE98DCB4C7A5808EA7B3F360B /* JayRKit-dummy.m in Sources */,
 				DD224AEA45046F30B5B5AB678DF83103 /* JRDebugManager.m in Sources */,
 				578E8ADF71982A743B3D3049854FADA9 /* JRDropTextField.m in Sources */,
@@ -904,6 +904,7 @@
 				36A179D947457DF4195CF3957C251F25 /* JRFillVerifyCodeView.m in Sources */,
 				FC4A2A4C0FA2D0D7E523CA2C308ECD84 /* JRModel.m in Sources */,
 				3DF5CD172A8BCCBD006422BA /* NSMutableAttributedString+JRKit.m in Sources */,
+				7A9EF0452A8CC0DE006C807F /* JRPopViewController.m in Sources */,
 				593B11401F389D38B5B100CB9B23D9CB /* JRTarget.m in Sources */,
 				DD3A7CACE8ED5CFD45642577DCFD7735 /* JRVerifyCodeInputView.m in Sources */,
 				9880B42BEA89886166FDEADD1B13ED04 /* NSObject+JRKit.m in Sources */,
