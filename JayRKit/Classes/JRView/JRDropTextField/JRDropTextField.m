@@ -28,14 +28,10 @@
     if(self){
         [self addSubview:self.dropView];
         self.animateStyle = JRDropTextFieldAnimateFold;
-        JRShadowSetting setting;
-        setting.shadowColor = [UIColor grayColor];
-        setting.shadowOpacity = 0.3;
-        setting.shadowRadius = 5.0;
-        setting.shadowOffset = CGSizeMake(0,5);
+        
         self.dropView.frame = CGRectMake(10,60,self.width - 20,300);
         self.dropView.backgroundColor = [UIColor whiteColor];
-        [self.dropView addShadowViewWithCornerRadius:5.0 shadowSetting:setting];
+        [self.dropView addShadowViewWithCornerRadius:5.0 shadowSetting:JRStandardShadow()];
         [self.dropView.superview setHidden:YES];
         [self addSubview:self.textField];
     }
@@ -53,11 +49,9 @@
 
 #pragma mark - lazy load
 
-JRCreateLazyLoad(UITextField *,textField,^{
-    self.textField = [[UITextField alloc] init];
-    self.textField.layer.borderWidth = 1.0;
-    self.textField.borderStyle = UITextBorderStyleLine;
-    self.textField.layer.borderColor = [UIColor redColor].CGColor;
+JRCreateLazyLoad(JRTextField *,textField,^{
+    self.textField = [[JRTextField alloc] init];
+    self.textField.borderStyle = UITextBorderStyleRoundedRect;
     self.textField.delegate = self;
     self.textField.backgroundColor = [UIColor whiteColor];
 });
@@ -87,6 +81,7 @@ JRCreateLazyLoad(UITableView *,dropView,^{
     cell.backgroundColor = [UIColor clearColor];
     cell.resultLabel.text = [self sortArrayWithRange][indexPath.row];
     [cell.resultLabel addTextHLWithColor:[UIColor purpleColor] range:[cell.resultLabel.text searchStrDim:self.textField.text]];
+    [cell.resultLabel addFontHLWithFont:[UIFont systemFontOfSize:25.0 weight:UIFontWeightBold] range:[cell.resultLabel.text searchStrDim:self.textField.text]];
     return cell;
 }
 

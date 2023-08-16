@@ -6,11 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JRMacro.h"
 #import "NSMutableAttributedString+JRKit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSAttributedString (JRKit)
+
 
 @end
 

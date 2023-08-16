@@ -168,4 +168,10 @@
     continaerView.clipsToBounds = NO;
 }
 
+- (void)addTapAction:(void (^)(JRTarget *sender))tapAction{
+    [self setUserInteractionEnabled:YES];
+    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initTapAction:tapAction];
+    [self addGestureRecognizer:gesture];
+}
+
 @end

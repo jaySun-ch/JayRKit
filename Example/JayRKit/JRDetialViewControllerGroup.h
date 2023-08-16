@@ -23,4 +23,17 @@ JRCreateClassInterface(
                        JRCreatePropertyWithArgs(strong,JRDropTextField *,exampleView));
 
 
+JRCreateClassInterface(
+                       JRPopExampleViewController,
+                       JRPopViewController<JRPopPresentable>,
+                       JRCreatePropertyWithArgs(strong,UILabel *,exampleView));
+
+JRCreateClassInterface(
+                       JRPopTestViewController,
+                       UIViewController,
+                       JRCreatePropertyWithArgs(strong,UIButton *,exampleView));
+
+
+
+
 #endif /* JRDetialViewControllerGroup_h */

@@ -58,6 +58,10 @@
 		753A7EFA509D0128F37AB965AD214F21 /* JRDebugManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E772B8234AFEC33EC35665B86FA735F /* JRDebugManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		755D4E4D989415BA172AF38EB90B4389 /* JRTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E1226F4ECD577215AE7B8DDE8E45BA /* JRTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A18F18AD0AE5629D329705BE7A08E18 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9EF0362A8CA2AB006C807F /* JRPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EF0352A8CA2AB006C807F /* JRPopViewController.m */; };
+		7A9EF0382A8CA2B0006C807F /* JRPopViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9EF0372A8CA2B0006C807F /* JRPopViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9EF03B2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9EF0392A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.h */; };
+		7A9EF03C2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9EF03A2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m */; };
 		7AC486A017452122A268752B2C1BDC33 /* NSString+JRKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC4892FC54A7D1D0FC4EAAD69E0C313 /* NSString+JRKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D0A59BC664E75ECF2DDE5F69FF69F79 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
 		8243629DA7038789AAF997FC5A5840D5 /* Pods-JayRKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D00BA4CBC869DE9FEEC2E075241E961 /* Pods-JayRKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -188,6 +192,10 @@
 		7386F79CC6A08608A138F5D6C75DD4A1 /* UIViewController+JRKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JRKit.m"; sourceTree = "<group>"; };
 		761D23BB631E52CB0DFD8899E88E7AB3 /* Pods-JayRKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JayRKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		78A2F38CAE7C48F27E378A412C4BB7F2 /* JRMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRMacro.h; sourceTree = "<group>"; };
+		7A9EF0352A8CA2AB006C807F /* JRPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRPopViewController.m; sourceTree = "<group>"; };
+		7A9EF0372A8CA2B0006C807F /* JRPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRPopViewController.h; sourceTree = "<group>"; };
+		7A9EF0392A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIPanGestureRecognizer+JRKit.h"; sourceTree = "<group>"; };
+		7A9EF03A2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIPanGestureRecognizer+JRKit.m"; sourceTree = "<group>"; };
 		81F6B67E59151CD7C2A57D8777429C26 /* JayRKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JayRKit-dummy.m"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		83FF346B4FD54C38BDC24731D53ABA81 /* Pods-JayRKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JayRKit_Example-Info.plist"; sourceTree = "<group>"; };
@@ -406,8 +414,7 @@
 		5AC044BA117B2398EB53F8DDF67282EA /* JRView */ = {
 			isa = PBXGroup;
 			children = (
-				3D977BAE2A8BDA46001B533E /* JRTextField */,
-				3D1E5FC12A8BC81300863C8B /* JRLabel */,
+				7A9EF0322A8CA178006C807F /* JRBaseView */,
 				E1B0C447876FF36E10FC529AF8AB8E7F /* JRDropTextField */,
 				9050A266D1B7249509DD3BDBC06D147D /* JRVerifyCodeInputView */,
 			);
@@ -429,6 +436,48 @@
 				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A9EF0312A8CA172006C807F /* JRAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JRAlertViewController;
+			sourceTree = "<group>";
+		};
+		7A9EF0322A8CA178006C807F /* JRBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EF0332A8CA18C006C807F /* JRPopView */,
+				3D1E5FC12A8BC81300863C8B /* JRLabel */,
+				3D977BAE2A8BDA46001B533E /* JRTextField */,
+			);
+			path = JRBaseView;
+			sourceTree = "<group>";
+		};
+		7A9EF0332A8CA18C006C807F /* JRPopView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JRPopView;
+			sourceTree = "<group>";
+		};
+		7A9EF0342A8CA206006C807F /* JRViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EF03D2A8CBD79006C807F /* JRPopViewController */,
+				7A9EF0312A8CA172006C807F /* JRAlertViewController */,
+			);
+			path = JRViewController;
+			sourceTree = "<group>";
+		};
+		7A9EF03D2A8CBD79006C807F /* JRPopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EF0372A8CA2B0006C807F /* JRPopViewController.h */,
+				7A9EF0352A8CA2AB006C807F /* JRPopViewController.m */,
+			);
+			path = JRPopViewController;
 			sourceTree = "<group>";
 		};
 		9050A266D1B7249509DD3BDBC06D147D /* JRVerifyCodeInputView */ = {
@@ -549,6 +598,7 @@
 			isa = PBXGroup;
 			children = (
 				3D9EF5B62A8BA9C600902FB4 /* JayRKit.h */,
+				7A9EF0342A8CA206006C807F /* JRViewController */,
 				26949B9111F79AFE3ED3FAFD961DE471 /* JRCategory */,
 				BDA70ACA48D6DE7FA25FA5C34D208D0F /* JRDebugManager */,
 				1097E378C883AFC80D0AD64931FEF666 /* JRMacro */,
@@ -606,6 +656,8 @@
 				54DD2541C56A5CC52CFB690C623F8FF3 /* UIControl+JRKit.m */,
 				46E9A55369925349C4933D2F6C9329E2 /* UITapGestureRecognizer+JRKit.h */,
 				BB37A5F69B216EDE2843F291BCD68CDE /* UITapGestureRecognizer+JRKit.m */,
+				7A9EF0392A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.h */,
+				7A9EF03A2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m */,
 				136D89383EA03EEBFCEDEE722EE37723 /* UITextField+JRKit.h */,
 				6642BE5FB0DF5E9D0C317EFDBC1EB465 /* UITextField+JRKit.m */,
 				B97FD54ED4586D20108F3197C09153A5 /* UIView+JRKit.h */,
@@ -663,12 +715,14 @@
 				602E5BE4A7D8C7B1818149F2C29286D0 /* JRModel.h in Headers */,
 				05A4D82CBF1518244A06159365CC6A7F /* JRPath.h in Headers */,
 				755D4E4D989415BA172AF38EB90B4389 /* JRTarget.h in Headers */,
+				7A9EF03B2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.h in Headers */,
 				23CEDCA128B5BAC34952A3993A0A2131 /* JRVerifyCodeInputView.h in Headers */,
 				B3C603D0E18925F68E44001CF9F2FEE1 /* NSObject+JRKit.h in Headers */,
 				7AC486A017452122A268752B2C1BDC33 /* NSString+JRKit.h in Headers */,
 				3DF5CD162A8BCCBD006422BA /* NSMutableAttributedString+JRKit.h in Headers */,
 				D9979C625F1AE33B6A2D09024096F0C6 /* UIButton+JRKit.h in Headers */,
 				3D1E5FC82A8BC88E00863C8B /* UILabel+JRKit.h in Headers */,
+				7A9EF0382A8CA2B0006C807F /* JRPopViewController.h in Headers */,
 				3D977BB22A8BDA5B001B533E /* JRTextField.h in Headers */,
 				980780124B8282765105C9A622CD3B97 /* UIControl+JRKit.h in Headers */,
 				21A574E4D9A7228A46C05B819BA49FE4 /* UITapGestureRecognizer+JRKit.h in Headers */,
@@ -841,6 +895,8 @@
 			files = (
 				54A1CF87F25B0E6DBFA29D0F93DE4E83 /* CALayer+JRKit.m in Sources */,
 				67CC9E4457DF59D67B68ED57E4FA6518 /* CAPropertyAnimation+JRKit.m in Sources */,
+				7A9EF03C2A8CBD15006C807F /* UIPanGestureRecognizer+JRKit.m in Sources */,
+				7A9EF0362A8CA2AB006C807F /* JRPopViewController.m in Sources */,
 				A47239DFE98DCB4C7A5808EA7B3F360B /* JayRKit-dummy.m in Sources */,
 				DD224AEA45046F30B5B5AB678DF83103 /* JRDebugManager.m in Sources */,
 				578E8ADF71982A743B3D3049854FADA9 /* JRDropTextField.m in Sources */,

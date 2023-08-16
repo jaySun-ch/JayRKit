@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JRPopViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -26,6 +26,17 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)addSubView:(UIView *)subView;
 
 - (void)removeAllSubViews;
+
+@end
+
+
+@interface UIViewController (JRPopViewController)
+
+- (void)jr_presentPopViewController:(JRPopViewController *)vc animated:(BOOL)animated completion:(void (^)(void))completion;
+
+- (void)jr_presentPopViewController:(JRPopViewController *)vc;
+
+
 
 @end
 

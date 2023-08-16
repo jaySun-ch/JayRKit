@@ -7,26 +7,25 @@
 
 #import "UILabel+JRKit.h"
 
-
 @implementation UILabel (JRKit)
 
 - (void)addTextHLWithColor:(UIColor *)hightlightColor range:(NSRange)range{
-    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:self.text];
+    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString:self.attributedText];
     [string addTextColorArt:hightlightColor range:range];
-    [self setAttributedText:string];
+    [self setAttributedText:[string copy]];
 }
 
 
 - (void)addBackgroundHLWithColor:(UIColor *)hightlightColor range:(NSRange)range{
-    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:self.text];
+    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString:self.attributedText];
     [string addBackgroundColorArt:hightlightColor range:range];
-    [self setAttributedText:string];
+    [self setAttributedText:[string copy]];
 }
 
-- (void)addFontHLWithColor:(UIFont *)font range:(NSRange)range{
-    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:self.text];
+- (void)addFontHLWithFont:(UIFont *)font range:(NSRange)range{
+    NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithAttributedString:self.attributedText];
     [string addFontArt:font range:range];
-    [self setAttributedText:string];
+    [self setAttributedText:[string copy]];
 }
 
 

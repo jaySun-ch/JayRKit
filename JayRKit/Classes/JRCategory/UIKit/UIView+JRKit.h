@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UITapGestureRecognizer+JRKit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -46,6 +47,37 @@ typedef struct JRShadowSetting{
     UIColor *shadowColor;
 }JRShadowSetting;
 
+static inline JRShadowSetting JRMakeShadowSetting(CGFloat shadowOpacity,CGFloat shadowRadius, CGSize shadowOffset,UIColor *shadowColor){
+    JRShadowSetting setting;
+    setting.shadowColor = shadowColor;
+    setting.shadowOpacity = shadowOpacity;
+    setting.shadowRadius = shadowRadius;
+    setting.shadowOffset = shadowOffset;
+    return setting;
+}
+
+static inline JRShadowSetting JRStandardShadow(void){
+    return JRMakeShadowSetting(0.3,10.0,CGSizeMake(0,0),[UIColor grayColor]);
+}
+
+static inline JRShadowSetting JRNUllShadow(void){
+    return JRMakeShadowSetting(0,0,CGSizeZero,[UIColor clearColor]);
+}
+
+static inline BOOL JRShadowSettingIsNull(JRShadowSetting setting){
+    if(setting.shadowColor == [UIColor clearColor]
+       &&
+       CGSizeEqualToSize(setting.shadowOffset, CGSizeZero)
+       &&
+       setting.shadowOpacity == 0
+       &&
+       setting.shadowRadius == 0){
+        return YES;
+    }
+    return NO;
+}
+
+
 @interface UIView (JRMethodExtension)
 
 - (void)removeAllSubViews;
@@ -56,6 +88,8 @@ typedef struct JRShadowSetting{
 
 - (void)addShadowViewWithCornerRadius:(CGFloat)cornerRadius
                         shadowSetting:(JRShadowSetting)setting;
+
+- (void)addTapAction:(void(^)(JRTarget *sender))tapAction;
 
 @end
 

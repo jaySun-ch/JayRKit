@@ -36,4 +36,9 @@
     return _resultLabel;
 }
 
+- (void)prepareForReuse{
+    [super prepareForReuse];
+    self.resultLabel.attributedText = [[NSAttributedString alloc] initWithString:self.resultLabel.text];
+}
+
 @end

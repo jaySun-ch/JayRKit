@@ -13,6 +13,8 @@
 - (type)getter;
 #endif
 
+#define JRScreenFrame  UIScreen.mainScreen.bounds
+
 #define JRScreenSize UIScreen.mainScreen.bounds.size
 
 #define JRScreenWidth JRScreenSize.width

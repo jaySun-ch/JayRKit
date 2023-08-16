@@ -29,7 +29,7 @@ _type_ *vc = [_type_ new];\
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self addSubView:self.tableView];
-    self.tableTitle = @[@"输入验证码样式",@"下拉输入框样式"];
+    self.tableTitle = @[@"输入验证码样式",@"下拉输入框样式",@"模态弹窗样式"];
 }
 
 - (void)viewDidLayoutSubviews{
@@ -56,6 +56,8 @@ JRCreateLazyLoad(UITableView *,tableView,^{
         PushVC(JRVerifyCodeInputViewController);
     }else if(indexPath.row  == 1){
         PushVC(JRDropTextFieldViewController);
+    }else if(indexPath.row == 2){
+        PushVC(JRPopTestViewController);
     }
 }
 

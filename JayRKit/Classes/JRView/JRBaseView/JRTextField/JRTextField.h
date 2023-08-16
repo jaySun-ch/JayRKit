@@ -9,6 +9,7 @@
 #define JRTextField_h
 
 #import <UIKit/UIKit.h>
+#import "UITextField+JRKit.h"
 
 @interface JRTextField : UITextField
 
